@@ -1,0 +1,174 @@
+﻿<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Data" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Monat" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Soll_x0020_kWh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Ist_x0020_kWh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Abw._x0020_Soll-Ist-kWh_x0020__x0025_" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Soll_x0020_EUR" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Ist_x0020_EUR" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Abw._x0020_Soll-Ist-EUR_x0020__x0025_" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Kum._x0020_Soll_x0020_kWh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Kum_x0020_Ist_x0020_kWh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Kum_x0020_Abw._x0020_Soll-Ist-kWh_x0020__x0025_" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Kum._x0020_Soll_x0020_EUR" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Kum._x0020_Ist_x0020_EUR" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Data>
+    <Monat>Januar</Monat>
+    <Ist_x0020_kWh>0.0000</Ist_x0020_kWh>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Kum._x0020_Soll_x0020_kWh>0.0000</Kum._x0020_Soll_x0020_kWh>
+    <Kum._x0020_Soll_x0020_EUR>0.0000</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+  </Data>
+  <Data>
+    <Monat>Februar</Monat>
+    <Soll_x0020_kWh>1805.0000</Soll_x0020_kWh>
+    <Ist_x0020_kWh>0.0000</Ist_x0020_kWh>
+    <Abw._x0020_Soll-Ist-kWh_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-kWh_x0020__x0025_>
+    <Soll_x0020_EUR>161.9085</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+    <Kum._x0020_Soll_x0020_kWh>1805.0000</Kum._x0020_Soll_x0020_kWh>
+    <Kum._x0020_Soll_x0020_EUR>161.9085</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+    <Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+  </Data>
+  <Data>
+    <Monat>März</Monat>
+    <Soll_x0020_kWh>3519.0000</Soll_x0020_kWh>
+    <Ist_x0020_kWh>0.0000</Ist_x0020_kWh>
+    <Abw._x0020_Soll-Ist-kWh_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-kWh_x0020__x0025_>
+    <Soll_x0020_EUR>315.6543</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+    <Kum._x0020_Soll_x0020_kWh>5324.0000</Kum._x0020_Soll_x0020_kWh>
+    <Kum._x0020_Soll_x0020_EUR>477.5628</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+    <Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+  </Data>
+  <Data>
+    <Monat>April</Monat>
+    <Soll_x0020_kWh>6316.0000</Soll_x0020_kWh>
+    <Ist_x0020_kWh>0.0000</Ist_x0020_kWh>
+    <Abw._x0020_Soll-Ist-kWh_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-kWh_x0020__x0025_>
+    <Soll_x0020_EUR>566.5452</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+    <Kum._x0020_Soll_x0020_kWh>11640.0000</Kum._x0020_Soll_x0020_kWh>
+    <Kum._x0020_Soll_x0020_EUR>1044.1080</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+    <Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+  </Data>
+  <Data>
+    <Monat>Mai</Monat>
+    <Soll_x0020_kWh>10015.0000</Soll_x0020_kWh>
+    <Ist_x0020_kWh>0.0000</Ist_x0020_kWh>
+    <Abw._x0020_Soll-Ist-kWh_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-kWh_x0020__x0025_>
+    <Soll_x0020_EUR>898.3455</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+    <Kum._x0020_Soll_x0020_kWh>21655.0000</Kum._x0020_Soll_x0020_kWh>
+    <Kum._x0020_Soll_x0020_EUR>1942.4535</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+    <Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+  </Data>
+  <Data>
+    <Monat>Juni</Monat>
+    <Soll_x0020_kWh>13173.0000</Soll_x0020_kWh>
+    <Ist_x0020_kWh>0.0000</Ist_x0020_kWh>
+    <Abw._x0020_Soll-Ist-kWh_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-kWh_x0020__x0025_>
+    <Soll_x0020_EUR>1181.6180</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+    <Kum._x0020_Soll_x0020_kWh>34828.0000</Kum._x0020_Soll_x0020_kWh>
+    <Kum._x0020_Soll_x0020_EUR>3124.0715</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+    <Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+  </Data>
+  <Data>
+    <Monat>Juli</Monat>
+    <Soll_x0020_kWh>13805.0000</Soll_x0020_kWh>
+    <Ist_x0020_kWh>0.0000</Ist_x0020_kWh>
+    <Abw._x0020_Soll-Ist-kWh_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-kWh_x0020__x0025_>
+    <Soll_x0020_EUR>1238.3085</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+    <Kum._x0020_Soll_x0020_kWh>48633.0000</Kum._x0020_Soll_x0020_kWh>
+    <Kum._x0020_Soll_x0020_EUR>4362.3800</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+    <Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+  </Data>
+  <Data>
+    <Monat>August</Monat>
+    <Soll_x0020_kWh>13895.0000</Soll_x0020_kWh>
+    <Ist_x0020_kWh>0.0000</Ist_x0020_kWh>
+    <Abw._x0020_Soll-Ist-kWh_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-kWh_x0020__x0025_>
+    <Soll_x0020_EUR>1246.3815</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+    <Kum._x0020_Soll_x0020_kWh>62528.0000</Kum._x0020_Soll_x0020_kWh>
+    <Kum._x0020_Soll_x0020_EUR>5608.7615</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+    <Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+  </Data>
+  <Data>
+    <Monat>September</Monat>
+    <Soll_x0020_kWh>12090.0000</Soll_x0020_kWh>
+    <Ist_x0020_kWh>0.0000</Ist_x0020_kWh>
+    <Abw._x0020_Soll-Ist-kWh_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-kWh_x0020__x0025_>
+    <Soll_x0020_EUR>1084.4730</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+    <Kum._x0020_Soll_x0020_kWh>74618.0000</Kum._x0020_Soll_x0020_kWh>
+    <Kum._x0020_Soll_x0020_EUR>6693.2345</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+    <Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+  </Data>
+  <Data>
+    <Monat>Oktober</Monat>
+    <Soll_x0020_kWh>7669.0000</Soll_x0020_kWh>
+    <Ist_x0020_kWh>0.0000</Ist_x0020_kWh>
+    <Abw._x0020_Soll-Ist-kWh_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-kWh_x0020__x0025_>
+    <Soll_x0020_EUR>687.9093</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+    <Kum._x0020_Soll_x0020_kWh>82287.0000</Kum._x0020_Soll_x0020_kWh>
+    <Kum._x0020_Soll_x0020_EUR>7381.1438</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+    <Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+  </Data>
+  <Data>
+    <Monat>November</Monat>
+    <Soll_x0020_kWh>4421.0000</Soll_x0020_kWh>
+    <Soll_x0020_EUR>396.5637</Soll_x0020_EUR>
+    <Kum._x0020_Soll_x0020_kWh>86708.0000</Kum._x0020_Soll_x0020_kWh>
+    <Kum._x0020_Soll_x0020_EUR>7777.7075</Kum._x0020_Soll_x0020_EUR>
+  </Data>
+  <Data>
+    <Monat>Dezember</Monat>
+    <Soll_x0020_kWh>2075.0000</Soll_x0020_kWh>
+    <Soll_x0020_EUR>186.1275</Soll_x0020_EUR>
+    <Kum._x0020_Soll_x0020_kWh>88783.0000</Kum._x0020_Soll_x0020_kWh>
+    <Kum._x0020_Soll_x0020_EUR>7963.8350</Kum._x0020_Soll_x0020_EUR>
+  </Data>
+</NewDataSet>

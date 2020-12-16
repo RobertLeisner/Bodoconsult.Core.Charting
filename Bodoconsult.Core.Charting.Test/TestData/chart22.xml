@@ -1,0 +1,127 @@
+﻿<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Data" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Monat" type="xs:int" minOccurs="0" />
+                <xs:element name="_x0032_020" type="xs:int" minOccurs="0" />
+                <xs:element name="_x0032_019" type="xs:int" minOccurs="0" />
+                <xs:element name="_x0032_018" type="xs:int" minOccurs="0" />
+                <xs:element name="kum._x0020_2020" type="xs:int" minOccurs="0" />
+                <xs:element name="kum._x0020_2019" type="xs:int" minOccurs="0" />
+                <xs:element name="kum._x0020_2018" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Data>
+    <Monat>1</Monat>
+    <_x0032_020>-57</_x0032_020>
+    <_x0032_019>0</_x0032_019>
+    <_x0032_018>24</_x0032_018>
+    <kum._x0020_2020>-57</kum._x0020_2020>
+    <kum._x0020_2019>0</kum._x0020_2019>
+    <kum._x0020_2018>24</kum._x0020_2018>
+  </Data>
+  <Data>
+    <Monat>2</Monat>
+    <_x0032_020>340</_x0032_020>
+    <_x0032_019>2574</_x0032_019>
+    <_x0032_018>568</_x0032_018>
+    <kum._x0020_2020>283</kum._x0020_2020>
+    <kum._x0020_2019>2574</kum._x0020_2019>
+    <kum._x0020_2018>592</kum._x0020_2018>
+  </Data>
+  <Data>
+    <Monat>3</Monat>
+    <_x0032_020>317</_x0032_020>
+    <_x0032_019>728</_x0032_019>
+    <_x0032_018>3390</_x0032_018>
+    <kum._x0020_2020>600</kum._x0020_2020>
+    <kum._x0020_2019>3302</kum._x0020_2019>
+    <kum._x0020_2018>3982</kum._x0020_2018>
+  </Data>
+  <Data>
+    <Monat>4</Monat>
+    <_x0032_019>0</_x0032_019>
+    <_x0032_018>0</_x0032_018>
+    <kum._x0020_2020>600</kum._x0020_2020>
+    <kum._x0020_2019>3302</kum._x0020_2019>
+    <kum._x0020_2018>3982</kum._x0020_2018>
+  </Data>
+  <Data>
+    <Monat>5</Monat>
+    <_x0032_020>717</_x0032_020>
+    <_x0032_019>356</_x0032_019>
+    <_x0032_018>227</_x0032_018>
+    <kum._x0020_2020>1317</kum._x0020_2020>
+    <kum._x0020_2019>3658</kum._x0020_2019>
+    <kum._x0020_2018>4209</kum._x0020_2018>
+  </Data>
+  <Data>
+    <Monat>6</Monat>
+    <_x0032_020>1270</_x0032_020>
+    <_x0032_019>2308</_x0032_019>
+    <_x0032_018>2289</_x0032_018>
+    <kum._x0020_2020>2587</kum._x0020_2020>
+    <kum._x0020_2019>5966</kum._x0020_2019>
+    <kum._x0020_2018>6498</kum._x0020_2018>
+  </Data>
+  <Data>
+    <Monat>7</Monat>
+    <_x0032_020>2162</_x0032_020>
+    <_x0032_019>3248</_x0032_019>
+    <_x0032_018>4403</_x0032_018>
+    <kum._x0020_2020>4749</kum._x0020_2020>
+    <kum._x0020_2019>9214</kum._x0020_2019>
+    <kum._x0020_2018>10901</kum._x0020_2018>
+  </Data>
+  <Data>
+    <Monat>8</Monat>
+    <_x0032_020>222</_x0032_020>
+    <_x0032_019>0</_x0032_019>
+    <_x0032_018>600</_x0032_018>
+    <kum._x0020_2020>4971</kum._x0020_2020>
+    <kum._x0020_2019>9214</kum._x0020_2019>
+    <kum._x0020_2018>11501</kum._x0020_2018>
+  </Data>
+  <Data>
+    <Monat>9</Monat>
+    <_x0032_020>926</_x0032_020>
+    <_x0032_019>1878</_x0032_019>
+    <_x0032_018>1645</_x0032_018>
+    <kum._x0020_2020>5897</kum._x0020_2020>
+    <kum._x0020_2019>11092</kum._x0020_2019>
+    <kum._x0020_2018>13146</kum._x0020_2018>
+  </Data>
+  <Data>
+    <Monat>10</Monat>
+    <_x0032_019>0</_x0032_019>
+    <_x0032_018>0</_x0032_018>
+    <kum._x0020_2020>5897</kum._x0020_2020>
+    <kum._x0020_2019>11092</kum._x0020_2019>
+    <kum._x0020_2018>13146</kum._x0020_2018>
+  </Data>
+  <Data>
+    <Monat>11</Monat>
+    <_x0032_019>312</_x0032_019>
+    <_x0032_018>925</_x0032_018>
+    <kum._x0020_2020>5897</kum._x0020_2020>
+    <kum._x0020_2019>11404</kum._x0020_2019>
+    <kum._x0020_2018>14071</kum._x0020_2018>
+  </Data>
+  <Data>
+    <Monat>12</Monat>
+    <_x0032_019>972</_x0032_019>
+    <_x0032_018>866</_x0032_018>
+    <kum._x0020_2020>5897</kum._x0020_2020>
+    <kum._x0020_2019>12376</kum._x0020_2019>
+    <kum._x0020_2018>14937</kum._x0020_2018>
+  </Data>
+</NewDataSet>

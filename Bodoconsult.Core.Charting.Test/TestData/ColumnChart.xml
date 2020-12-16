@@ -1,0 +1,50 @@
+﻿<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Data" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Region" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Bestandswert" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Anteil_x0020__x0025_" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Data>
+    <Region>Asien</Region>
+    <Bestandswert>115987.3691</Bestandswert>
+    <Anteil_x0020__x0025_>8.79</Anteil_x0020__x0025_>
+  </Data>
+  <Data>
+    <Region>Euroland</Region>
+    <Bestandswert>906303.3771</Bestandswert>
+    <Anteil_x0020__x0025_>68.67</Anteil_x0020__x0025_>
+  </Data>
+  <Data>
+    <Region>Europa ex Euro</Region>
+    <Bestandswert>180805.0597</Bestandswert>
+    <Anteil_x0020__x0025_>13.7</Anteil_x0020__x0025_>
+  </Data>
+  <Data>
+    <Region>Nordamerika</Region>
+    <Bestandswert>71749.3052</Bestandswert>
+    <Anteil_x0020__x0025_>5.44</Anteil_x0020__x0025_>
+  </Data>
+  <Data>
+    <Region>Sonstiges</Region>
+    <Bestandswert>44988.7389</Bestandswert>
+    <Anteil_x0020__x0025_>3.41</Anteil_x0020__x0025_>
+  </Data>
+</NewDataSet>

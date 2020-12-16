@@ -1,0 +1,86 @@
+﻿<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Data" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Risiko_x0020__x0025_" type="xs:double" minOccurs="0" />
+                <xs:element name="Return_x0020__x0025_" type="xs:double" minOccurs="0" />
+                <xs:element name="Anlageklasse">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="a_color" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Data>
+    <Risiko_x0020__x0025_>1</Risiko_x0020__x0025_>
+    <Return_x0020__x0025_>2.5</Return_x0020__x0025_>
+    <Anlageklasse>Liquidität</Anlageklasse>
+    <a_color>8388608</a_color>
+  </Data>
+  <Data>
+    <Risiko_x0020__x0025_>1.09</Risiko_x0020__x0025_>
+    <Return_x0020__x0025_>7.48</Return_x0020__x0025_>
+    <Anlageklasse>MonteCarlo Median</Anlageklasse>
+    <a_color>0</a_color>
+  </Data>
+  <Data>
+    <Risiko_x0020__x0025_>1.09</Risiko_x0020__x0025_>
+    <Return_x0020__x0025_>7.48</Return_x0020__x0025_>
+    <Anlageklasse>MonteCarlo Mittelwert</Anlageklasse>
+    <a_color>0</a_color>
+  </Data>
+  <Data>
+    <Risiko_x0020__x0025_>7.16</Risiko_x0020__x0025_>
+    <Return_x0020__x0025_>5.7</Return_x0020__x0025_>
+    <Anlageklasse>Renten</Anlageklasse>
+    <a_color>0</a_color>
+  </Data>
+  <Data>
+    <Risiko_x0020__x0025_>10</Risiko_x0020__x0025_>
+    <Return_x0020__x0025_>5.5</Return_x0020__x0025_>
+    <Anlageklasse>Immobilien</Anlageklasse>
+    <a_color>8421504</a_color>
+  </Data>
+  <Data>
+    <Risiko_x0020__x0025_>12</Risiko_x0020__x0025_>
+    <Return_x0020__x0025_>15</Return_x0020__x0025_>
+    <Anlageklasse>Alternative Investments</Anlageklasse>
+    <a_color>32768</a_color>
+  </Data>
+  <Data>
+    <Risiko_x0020__x0025_>16.89</Risiko_x0020__x0025_>
+    <Return_x0020__x0025_>8.81</Return_x0020__x0025_>
+    <Anlageklasse>Aktien</Anlageklasse>
+    <a_color>26367</a_color>
+  </Data>
+  <Data>
+    <Risiko_x0020__x0025_>18</Risiko_x0020__x0025_>
+    <Return_x0020__x0025_>9.5</Return_x0020__x0025_>
+    <Anlageklasse>Unternehmerische Beteiligungen</Anlageklasse>
+    <a_color>32755</a_color>
+  </Data>
+  <Data>
+    <Risiko_x0020__x0025_>29.87</Risiko_x0020__x0025_>
+    <Return_x0020__x0025_>9.08</Return_x0020__x0025_>
+    <Anlageklasse>Gold</Anlageklasse>
+    <a_color>52479</a_color>
+  </Data>
+  <Data>
+    <Risiko_x0020__x0025_>64.63</Risiko_x0020__x0025_>
+    <Return_x0020__x0025_>2.05</Return_x0020__x0025_>
+    <Anlageklasse>Portfolio 1J</Anlageklasse>
+    <a_color>0</a_color>
+  </Data>
+</NewDataSet>

@@ -1,0 +1,114 @@
+﻿<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Data" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Monat" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Soll_x0020_EUR" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Ist_x0020_EUR" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Abw._x0020_Soll-Ist-EUR_x0020__x0025_" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Kum._x0020_Soll_x0020_EUR" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Kum._x0020_Ist_x0020_EUR" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Data>
+    <Monat>Januar</Monat>
+    <Soll_x0020_EUR>0.0000</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Kum._x0020_Soll_x0020_EUR>0.0000</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+  </Data>
+  <Data>
+    <Monat>Februar</Monat>
+    <Soll_x0020_EUR>0.0000</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Kum._x0020_Soll_x0020_EUR>0.0000</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+  </Data>
+  <Data>
+    <Monat>März</Monat>
+    <Soll_x0020_EUR>0.0000</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Kum._x0020_Soll_x0020_EUR>0.0000</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+  </Data>
+  <Data>
+    <Monat>April</Monat>
+    <Soll_x0020_EUR>0.0000</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Kum._x0020_Soll_x0020_EUR>0.0000</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+  </Data>
+  <Data>
+    <Monat>Mai</Monat>
+    <Soll_x0020_EUR>0.0000</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Kum._x0020_Soll_x0020_EUR>0.0000</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+  </Data>
+  <Data>
+    <Monat>Juni</Monat>
+    <Soll_x0020_EUR>0.0000</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Kum._x0020_Soll_x0020_EUR>0.0000</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+  </Data>
+  <Data>
+    <Monat>Juli</Monat>
+    <Soll_x0020_EUR>9320.0000</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+    <Kum._x0020_Soll_x0020_EUR>9320.0000</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>0.0000</Kum._x0020_Ist_x0020_EUR>
+    <Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-100.0000</Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+  </Data>
+  <Data>
+    <Monat>August</Monat>
+    <Soll_x0020_EUR>0.0000</Soll_x0020_EUR>
+    <Ist_x0020_EUR>2520.0000</Ist_x0020_EUR>
+    <Kum._x0020_Soll_x0020_EUR>9320.0000</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>2520.0000</Kum._x0020_Ist_x0020_EUR>
+    <Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-72.9700</Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+  </Data>
+  <Data>
+    <Monat>September</Monat>
+    <Soll_x0020_EUR>0.0000</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Kum._x0020_Soll_x0020_EUR>9320.0000</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>2520.0000</Kum._x0020_Ist_x0020_EUR>
+    <Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-72.9700</Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+  </Data>
+  <Data>
+    <Monat>Oktober</Monat>
+    <Soll_x0020_EUR>0.0000</Soll_x0020_EUR>
+    <Ist_x0020_EUR>0.0000</Ist_x0020_EUR>
+    <Kum._x0020_Soll_x0020_EUR>9320.0000</Kum._x0020_Soll_x0020_EUR>
+    <Kum._x0020_Ist_x0020_EUR>2520.0000</Kum._x0020_Ist_x0020_EUR>
+    <Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>-72.9700</Kum._x0020_Abw._x0020_Soll-Ist-EUR_x0020__x0025_>
+  </Data>
+  <Data>
+    <Monat>November</Monat>
+    <Soll_x0020_EUR>0.0000</Soll_x0020_EUR>
+    <Kum._x0020_Soll_x0020_EUR>9320.0000</Kum._x0020_Soll_x0020_EUR>
+  </Data>
+  <Data>
+    <Monat>Dezember</Monat>
+    <Soll_x0020_EUR>0.0000</Soll_x0020_EUR>
+    <Kum._x0020_Soll_x0020_EUR>9320.0000</Kum._x0020_Soll_x0020_EUR>
+  </Data>
+</NewDataSet>

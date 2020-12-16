@@ -1,0 +1,1190 @@
+﻿<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Data" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Monat" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="260" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Aktien" type="xs:double" />
+                <xs:element name="Renten" type="xs:double" />
+                <xs:element name="Immobilien" type="xs:double" />
+                <xs:element name="Unternehmerische_x0020_Beteiligungen" type="xs:double" />
+                <xs:element name="Liquidität" type="xs:double" />
+                <xs:element name="Alternative_x0020_Anlagen" type="xs:double" />
+                <xs:element name="Sonstiges" type="xs:double" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Data>
+    <Monat>2010 11</Monat>
+    <Aktien>375628.5039053955</Aktien>
+    <Renten>333314.112746582</Renten>
+    <Immobilien>97540.14</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>73636.76999999999</Liquidität>
+    <Alternative_x0020_Anlagen>91849.24876403809</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2010 12</Monat>
+    <Aktien>394940.3152319336</Aktien>
+    <Renten>334960.5567956543</Renten>
+    <Immobilien>99554.79000000001</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>81192.76999999999</Liquidität>
+    <Alternative_x0020_Anlagen>93937.24076080322</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2011 01</Monat>
+    <Aktien>391079.1751358033</Aktien>
+    <Renten>332289.2855422363</Renten>
+    <Immobilien>96820.45000000001</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>81987.977</Liquidität>
+    <Alternative_x0020_Anlagen>94003.72016906738</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2011 02</Monat>
+    <Aktien>396079.93472076417</Aktien>
+    <Renten>332471.4311198731</Renten>
+    <Immobilien>96453.08</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>82822.34300000001</Liquidität>
+    <Alternative_x0020_Anlagen>94003.72016906738</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2011 03</Monat>
+    <Aktien>391379.699583435</Aktien>
+    <Renten>328236.2722888184</Renten>
+    <Immobilien>94631.93</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>82182.213</Liquidität>
+    <Alternative_x0020_Anlagen>94003.72016906738</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2011 04</Monat>
+    <Aktien>396759.80710986326</Aktien>
+    <Renten>344810.7645776367</Renten>
+    <Immobilien>94519.97</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>65434.31</Liquidität>
+    <Alternative_x0020_Anlagen>116926.16050720215</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2011 05</Monat>
+    <Aktien>431062.5868962402</Aktien>
+    <Renten>342656.00633789063</Renten>
+    <Immobilien>96677.38399999999</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>36148.36</Liquidität>
+    <Alternative_x0020_Anlagen>119926.16050720215</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2011 06</Monat>
+    <Aktien>421018.4699343872</Aktien>
+    <Renten>340982.4949645996</Renten>
+    <Immobilien>94390.37</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>46446.607</Liquidität>
+    <Alternative_x0020_Anlagen>121749.58025360107</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2011 07</Monat>
+    <Aktien>417743.921213623</Aktien>
+    <Renten>343305.52816894534</Renten>
+    <Immobilien>95073.455</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>48339.133</Liquidität>
+    <Alternative_x0020_Anlagen>121713.5710144043</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2011 08</Monat>
+    <Aktien>407479.9231022339</Aktien>
+    <Renten>340028.92474658205</Renten>
+    <Immobilien>88515.34</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>35216.903000000006</Liquidität>
+    <Alternative_x0020_Anlagen>118200.05966186523</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2011 09</Monat>
+    <Aktien>399430.95926702884</Aktien>
+    <Renten>309718.3018310547</Renten>
+    <Immobilien>87947.37</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>53323.36</Liquidität>
+    <Alternative_x0020_Anlagen>118200.05966186523</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2011 10</Monat>
+    <Aktien>415103.58536468504</Aktien>
+    <Renten>133200.86</Renten>
+    <Immobilien>91709.79</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>49941.590000000004</Liquidität>
+    <Alternative_x0020_Anlagen>118200.05966186523</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2011 11</Monat>
+    <Aktien>411182.03007476806</Aktien>
+    <Renten>131808.72</Renten>
+    <Immobilien>90701.15</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>50461.11</Liquidität>
+    <Alternative_x0020_Anlagen>118200.05966186523</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2011 12</Monat>
+    <Aktien>420149.91403509525</Aktien>
+    <Renten>132970.42</Renten>
+    <Immobilien>94654.18</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>50009.29</Liquidität>
+    <Alternative_x0020_Anlagen>118200.05966186523</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2012 01</Monat>
+    <Aktien>430034.12430725095</Aktien>
+    <Renten>133988.03600000002</Renten>
+    <Immobilien>97509.87099999998</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>60804.299999999996</Liquidität>
+    <Alternative_x0020_Anlagen>118726.36008453369</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2012 02</Monat>
+    <Aktien>438724.1616887207</Aktien>
+    <Renten>134193.88</Renten>
+    <Immobilien>99483.90000000001</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>60164.84</Liquidität>
+    <Alternative_x0020_Anlagen>118610.02059173584</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2012 03</Monat>
+    <Aktien>453632.12245013425</Aktien>
+    <Renten>134410.88999999998</Renten>
+    <Immobilien>98897.99000000002</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>45693.32</Liquidität>
+    <Alternative_x0020_Anlagen>117800.75923919678</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2012 04</Monat>
+    <Aktien>451765.94295574946</Aktien>
+    <Renten>134611.75</Renten>
+    <Immobilien>101196.51000000001</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>16301.32</Liquidität>
+    <Alternative_x0020_Anlagen>117800.75923919678</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2012 05</Monat>
+    <Aktien>439427.7048703003</Aktien>
+    <Renten>134567.55</Renten>
+    <Immobilien>100397.441</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>17371.96</Liquidität>
+    <Alternative_x0020_Anlagen>117800.75923919678</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2012 06</Monat>
+    <Aktien>448068.63511901855</Aktien>
+    <Renten>134319.57</Renten>
+    <Immobilien>104027.19</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>20127.15</Liquidität>
+    <Alternative_x0020_Anlagen>118371.88067626953</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2012 07</Monat>
+    <Aktien>460796.6516658325</Aktien>
+    <Renten>135219.91</Renten>
+    <Immobilien>100105.409</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>30369.01</Liquidität>
+    <Alternative_x0020_Anlagen>118371.88067626953</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2012 08</Monat>
+    <Aktien>462064.4482429199</Aktien>
+    <Renten>135195.7</Renten>
+    <Immobilien>98687.81</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>29015.66</Liquidität>
+    <Alternative_x0020_Anlagen>118371.88067626953</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2012 09</Monat>
+    <Aktien>465649.04927253723</Aktien>
+    <Renten>143040.80496520997</Renten>
+    <Immobilien>104310.47862243652</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>26260.56</Liquidität>
+    <Alternative_x0020_Anlagen>120506.91050720215</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2012 10</Monat>
+    <Aktien>464331.2212123871</Aktien>
+    <Renten>143524.28099975587</Renten>
+    <Immobilien>104844.37038993835</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>24252.35</Liquidität>
+    <Alternative_x0020_Anlagen>122363.23081970215</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2012 11</Monat>
+    <Aktien>472406.25424957275</Aktien>
+    <Renten>143331.79080657958</Renten>
+    <Immobilien>107100.98043251038</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>22119.190000000002</Liquidität>
+    <Alternative_x0020_Anlagen>100586.33949279785</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2012 12</Monat>
+    <Aktien>478856.7638158798</Aktien>
+    <Renten>143341.813230896</Renten>
+    <Immobilien>109450.71673679352</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>29906.920000000002</Liquidität>
+    <Alternative_x0020_Anlagen>100699.91050720215</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2013 01</Monat>
+    <Aktien>492119.16923713684</Aktien>
+    <Renten>141521.33961334228</Renten>
+    <Immobilien>109906.68389987946</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>29504.47</Liquidität>
+    <Alternative_x0020_Anlagen>91303.28932373047</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2013 02</Monat>
+    <Aktien>507724.75675296783</Aktien>
+    <Renten>141884.28999023436</Renten>
+    <Immobilien>113535.73628997803</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>30961.36</Liquidität>
+    <Alternative_x0020_Anlagen>90882.25025360107</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2013 03</Monat>
+    <Aktien>528858.8458604813</Aktien>
+    <Renten>142603.66956329346</Renten>
+    <Immobilien>116641.98927879333</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>26643.030000000002</Liquidität>
+    <Alternative_x0020_Anlagen>91048.44983093262</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2013 04</Monat>
+    <Aktien>536288.2427587509</Aktien>
+    <Renten>153894.62736358642</Renten>
+    <Immobilien>119159.08563041687</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>19503.54</Liquidität>
+    <Alternative_x0020_Anlagen>89295.08050720215</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2013 05</Monat>
+    <Aktien>542088.0461359024</Aktien>
+    <Renten>152659.79664611816</Renten>
+    <Immobilien>112131.17270946503</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>34559.88</Liquidität>
+    <Alternative_x0020_Anlagen>88799.25025360107</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2013 06</Monat>
+    <Aktien>533297.0834212303</Aktien>
+    <Renten>151247.64657592773</Renten>
+    <Immobilien>107467.10347366333</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>37536.42</Liquidität>
+    <Alternative_x0020_Anlagen>88799.25025360107</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2013 07</Monat>
+    <Aktien>545207.8648138046</Aktien>
+    <Renten>152507.55502777098</Renten>
+    <Immobilien>107495.08554172516</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>40947.99</Liquidität>
+    <Alternative_x0020_Anlagen>87585.9910144043</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2013 08</Monat>
+    <Aktien>535147.8533329964</Aktien>
+    <Renten>151427.41905059814</Renten>
+    <Immobilien>103031.0838508606</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>42563.74</Liquidität>
+    <Alternative_x0020_Anlagen>87694.02084533691</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2013 09</Monat>
+    <Aktien>556375.8249058723</Aktien>
+    <Renten>148496.80917053221</Renten>
+    <Immobilien>106644.86708641052</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>45862.770000000004</Liquidität>
+    <Alternative_x0020_Anlagen>85294.02084533691</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2013 10</Monat>
+    <Aktien>568002.1158480644</Aktien>
+    <Renten>149633.86489410402</Renten>
+    <Immobilien>113143.4702911377</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>38831.590000000004</Liquidität>
+    <Alternative_x0020_Anlagen>85213.69059173584</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2013 11</Monat>
+    <Aktien>573311.4634251595</Aktien>
+    <Renten>150083.7728515625</Renten>
+    <Immobilien>109604.89275550842</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>39381.47</Liquidität>
+    <Alternative_x0020_Anlagen>84823.11957733154</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2013 12</Monat>
+    <Aktien>569578.8729166985</Aktien>
+    <Renten>149356.52066192628</Renten>
+    <Immobilien>107118.58801174164</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>16027.75</Liquidität>
+    <Alternative_x0020_Anlagen>85294.02084533691</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2014 01</Monat>
+    <Aktien>564228.8464026451</Aktien>
+    <Renten>150541.64930877686</Renten>
+    <Immobilien>107396.56641483307</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>5382.51</Liquidität>
+    <Alternative_x0020_Anlagen>85925.61033813476</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2014 02</Monat>
+    <Aktien>573666.6193213463</Aktien>
+    <Renten>144849.16971435546</Renten>
+    <Immobilien>111218.85239982605</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>6253.929999999999</Liquidität>
+    <Alternative_x0020_Anlagen>85925.61033813476</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2014 03</Monat>
+    <Aktien>572206.9236321449</Aktien>
+    <Renten>144959.517137146</Renten>
+    <Immobilien>111536.49088096619</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>13571.130000000001</Liquidität>
+    <Alternative_x0020_Anlagen>83494.02084533691</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2014 04</Monat>
+    <Aktien>569299.8419604301</Aktien>
+    <Renten>147245.25816345215</Renten>
+    <Immobilien>113884.34473228455</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>23785.85</Liquidität>
+    <Alternative_x0020_Anlagen>83543.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2014 05</Monat>
+    <Aktien>591719.4921460152</Aktien>
+    <Renten>148407.0373550415</Renten>
+    <Immobilien>119006.56230258942</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>41384.46</Liquidität>
+    <Alternative_x0020_Anlagen>83543.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2014 06</Monat>
+    <Aktien>608853.6642932892</Aktien>
+    <Renten>163122.23823547363</Renten>
+    <Immobilien>119447.0229845047</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>11726.94</Liquidität>
+    <Alternative_x0020_Anlagen>83543.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2014 07</Monat>
+    <Aktien>603368.865527153</Aktien>
+    <Renten>164766.761579895</Renten>
+    <Immobilien>122692.07917118073</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>14130.060000000001</Liquidität>
+    <Alternative_x0020_Anlagen>83543.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2014 08</Monat>
+    <Aktien>619370.5687685013</Aktien>
+    <Renten>165942.13609008788</Renten>
+    <Immobilien>124429.46584796906</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>28834.77</Liquidität>
+    <Alternative_x0020_Anlagen>82343.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2014 09</Monat>
+    <Aktien>592087.4086370468</Aktien>
+    <Renten>170374.37931671142</Renten>
+    <Immobilien>121619.88950061798</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>62549.880000000005</Liquidität>
+    <Alternative_x0020_Anlagen>78743.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2014 10</Monat>
+    <Aktien>593934.3149385452</Aktien>
+    <Renten>170837.43851776124</Renten>
+    <Immobilien>129337.6182088852</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>62903.24</Liquidität>
+    <Alternative_x0020_Anlagen>78743.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2014 11</Monat>
+    <Aktien>606989.7828512192</Aktien>
+    <Renten>171223.6710205078</Renten>
+    <Immobilien>130866.90523338318</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>52054.14</Liquidität>
+    <Alternative_x0020_Anlagen>78743.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2014 12</Monat>
+    <Aktien>607031.4708309174</Aktien>
+    <Renten>171570.59432525636</Renten>
+    <Immobilien>136153.85017681122</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>56291.38</Liquidität>
+    <Alternative_x0020_Anlagen>78743.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2015 01</Monat>
+    <Aktien>655991.834736824</Aktien>
+    <Renten>174777.3957901001</Renten>
+    <Immobilien>153687.11236667633</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>35138.13</Liquidität>
+    <Alternative_x0020_Anlagen>75443.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2015 02</Monat>
+    <Aktien>686037.8151197433</Aktien>
+    <Renten>174806.3588119507</Renten>
+    <Immobilien>153680.02423286438</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>33796.33</Liquidität>
+    <Alternative_x0020_Anlagen>77443.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2015 03</Monat>
+    <Aktien>687236.6575536728</Aktien>
+    <Renten>173492.3266418457</Renten>
+    <Immobilien>158509.58550167084</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>51846.73</Liquidität>
+    <Alternative_x0020_Anlagen>77443.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2015 04</Monat>
+    <Aktien>709784.3204140663</Aktien>
+    <Renten>173395.40353393555</Renten>
+    <Immobilien>156136.46426582336</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>52194.469999999994</Liquidität>
+    <Alternative_x0020_Anlagen>77443.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2015 05</Monat>
+    <Aktien>649070.2742524147</Aktien>
+    <Renten>170225.94004974366</Renten>
+    <Immobilien>124170.70011138916</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>135104.37</Liquidität>
+    <Alternative_x0020_Anlagen>74643.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2015 06</Monat>
+    <Aktien>682851.1463742256</Aktien>
+    <Renten>168186.67438201903</Renten>
+    <Immobilien>116621.14889240265</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>98467.38</Liquidität>
+    <Alternative_x0020_Anlagen>74643.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2015 07</Monat>
+    <Aktien>730705.3491382599</Aktien>
+    <Renten>169446.63935394288</Renten>
+    <Immobilien>118290.93001270294</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>59416.03</Liquidität>
+    <Alternative_x0020_Anlagen>74643.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2015 08</Monat>
+    <Aktien>682320.8730592728</Aktien>
+    <Renten>168759.63022766114</Renten>
+    <Immobilien>106361.61311721802</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>63627</Liquidität>
+    <Alternative_x0020_Anlagen>74643.8809298706</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2015 09</Monat>
+    <Aktien>673646.7977027893</Aktien>
+    <Renten>168838.06918640138</Renten>
+    <Immobilien>109817.3999300003</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>31779.02</Liquidität>
+    <Alternative_x0020_Anlagen>107396.88050262451</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2015 10</Monat>
+    <Aktien>737983.9405446053</Aktien>
+    <Renten>169451.18289642333</Renten>
+    <Immobilien>119783.4407749176</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>5512.21</Liquidität>
+    <Alternative_x0020_Anlagen>107474.23127166748</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2015 11</Monat>
+    <Aktien>759215.0183348656</Aktien>
+    <Renten>170222.2708251953</Renten>
+    <Immobilien>120427.36993789673</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>524.41</Liquidität>
+    <Alternative_x0020_Anlagen>107597.43195526123</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2015 12</Monat>
+    <Aktien>653480.436934948</Aktien>
+    <Renten>168262.175491333</Renten>
+    <Immobilien>118557.31195640564</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>75234.89</Liquidität>
+    <Alternative_x0020_Anlagen>106961.83075897217</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2016 01</Monat>
+    <Aktien>618520.534509182</Aktien>
+    <Renten>168764.46851654054</Renten>
+    <Immobilien>111387.84806060791</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>55203.04</Liquidität>
+    <Alternative_x0020_Anlagen>104261.83075897217</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2016 02</Monat>
+    <Aktien>620138.4894785881</Aktien>
+    <Renten>169305.18005218505</Renten>
+    <Immobilien>115242.80348491669</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>54776.97</Liquidität>
+    <Alternative_x0020_Anlagen>104312.93152801513</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2016 03</Monat>
+    <Aktien>628138.7143063545</Aktien>
+    <Renten>170028.95286254882</Renten>
+    <Immobilien>121527.73025131226</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>40439.68</Liquidität>
+    <Alternative_x0020_Anlagen>104434.03016082763</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2016 04</Monat>
+    <Aktien>638354.8807888031</Aktien>
+    <Renten>172633.4608200073</Renten>
+    <Immobilien>119568.63489627838</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>31006.83</Liquidität>
+    <Alternative_x0020_Anlagen>104483.3813571167</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2016 05</Monat>
+    <Aktien>652915.2528014183</Aktien>
+    <Renten>185922.67288970947</Renten>
+    <Immobilien>121856.64964199066</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>25313.08</Liquidität>
+    <Alternative_x0020_Anlagen>104483.3813571167</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2016 06</Monat>
+    <Aktien>647102.7909588814</Aktien>
+    <Renten>186123.05631256104</Renten>
+    <Immobilien>127478.14980792999</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>3076.14</Liquidität>
+    <Alternative_x0020_Anlagen>104483.3813571167</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2016 07</Monat>
+    <Aktien>664935.8425707817</Aktien>
+    <Renten>157602.73812103271</Renten>
+    <Immobilien>134983.68770599365</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>5144.65</Liquidität>
+    <Alternative_x0020_Anlagen>104483.3813571167</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2016 08</Monat>
+    <Aktien>647250.4198813438</Aktien>
+    <Renten>157556.3157119751</Renten>
+    <Immobilien>151689.7688369751</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>25603.730000000003</Liquidität>
+    <Alternative_x0020_Anlagen>100030.85089294433</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2016 09</Monat>
+    <Aktien>576015.338154316</Aktien>
+    <Renten>126724.41928100586</Renten>
+    <Immobilien>151024.6179447174</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>101435.09</Liquidität>
+    <Alternative_x0020_Anlagen>97647.60046569824</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2016 10</Monat>
+    <Aktien>579746.0674409866</Aktien>
+    <Renten>125910.34191894531</Renten>
+    <Immobilien>144153.59865951538</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>26731.11</Liquidität>
+    <Alternative_x0020_Anlagen>97621.00012390137</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2016 11</Monat>
+    <Aktien>574203.0484027863</Aktien>
+    <Renten>125264.0611114502</Renten>
+    <Immobilien>142549.05928230286</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>27270.03</Liquidität>
+    <Alternative_x0020_Anlagen>97750.85089294433</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2016 12</Monat>
+    <Aktien>584996.300927639</Aktien>
+    <Renten>125572.43865966797</Renten>
+    <Immobilien>145741.500872612</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>31985.75</Liquidität>
+    <Alternative_x0020_Anlagen>96999.65277282715</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2017 01</Monat>
+    <Aktien>585357.5317120552</Aktien>
+    <Renten>124890.41970825195</Renten>
+    <Immobilien>145241.8086452484</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>35076.11</Liquidität>
+    <Alternative_x0020_Anlagen>97420.32990447998</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2017 02</Monat>
+    <Aktien>604811.2697114944</Aktien>
+    <Renten>125571.73706054688</Renten>
+    <Immobilien>151579.83533477783</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>25634.95</Liquidität>
+    <Alternative_x0020_Anlagen>97453.58033172607</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2017 03</Monat>
+    <Aktien>613182.5780482292</Aktien>
+    <Renten>124980.83786010742</Renten>
+    <Immobilien>149112.0517501831</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>27643.75</Liquidität>
+    <Alternative_x0020_Anlagen>97540.38178436279</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2017 04</Monat>
+    <Aktien>619396.2491168976</Aktien>
+    <Renten>125129.24073791504</Renten>
+    <Immobilien>148671.3716316223</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>20715.85</Liquidität>
+    <Alternative_x0020_Anlagen>95704.43024627685</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2017 05</Monat>
+    <Aktien>971959.0222687721</Aktien>
+    <Renten>125446.13832092285</Renten>
+    <Immobilien>145438.7411146164</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>31759.87</Liquidität>
+    <Alternative_x0020_Anlagen>93934.43024627685</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2017 06</Monat>
+    <Aktien>967023.626560688</Aktien>
+    <Renten>125199.61824035645</Renten>
+    <Immobilien>144172.80966472626</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>4626.67</Liquidität>
+    <Alternative_x0020_Anlagen>83425.69144622803</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2017 07</Monat>
+    <Aktien>967708.5752539635</Aktien>
+    <Renten>125345.53782653809</Renten>
+    <Immobilien>143054.83110904694</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>2673.29</Liquidität>
+    <Alternative_x0020_Anlagen>83162.81016723633</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2017 08</Monat>
+    <Aktien>972459.6314754486</Aktien>
+    <Renten>125852.00022888184</Renten>
+    <Immobilien>142664.74069023132</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>13714.75</Liquidität>
+    <Alternative_x0020_Anlagen>83276.56016723633</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2017 09</Monat>
+    <Aktien>981396.4028296471</Aktien>
+    <Renten>125399.72143554688</Renten>
+    <Immobilien>142224.731675148</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>8123.3099999999995</Liquidität>
+    <Alternative_x0020_Anlagen>83323.46110717773</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2017 10</Monat>
+    <Aktien>989817.2920598984</Aktien>
+    <Renten>125923.05844116211</Renten>
+    <Immobilien>144189.28733158112</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>3025.21</Liquidität>
+    <Alternative_x0020_Anlagen>83483.41136352539</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2017 11</Monat>
+    <Aktien>979456.1401801109</Aktien>
+    <Renten>105334.32022094727</Renten>
+    <Immobilien>145762.13193511963</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>20643.02</Liquidität>
+    <Alternative_x0020_Anlagen>83483.41136352539</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2017 12</Monat>
+    <Aktien>974703.4767241478</Aktien>
+    <Renten>85561.2795715332</Renten>
+    <Immobilien>146381.6320476532</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>17911.11</Liquidität>
+    <Alternative_x0020_Anlagen>83483.41136352539</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2018 01</Monat>
+    <Aktien>977975.0469174385</Aktien>
+    <Renten>85422.24000549316</Renten>
+    <Immobilien>146573.38221645355</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>3407.86</Liquidität>
+    <Alternative_x0020_Anlagen>79783.41136352539</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2018 02</Monat>
+    <Aktien>970379.3014354706</Aktien>
+    <Renten>69186.15966796875</Renten>
+    <Immobilien>145393.38193511963</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>4771.65</Liquidität>
+    <Alternative_x0020_Anlagen>79783.41136352539</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2018 07</Monat>
+    <Aktien>953888.3400382996</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>134182.7095928192</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>3906.59</Liquidität>
+    <Alternative_x0020_Anlagen>78052.6609362793</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2018 08</Monat>
+    <Aktien>954307.6716127396</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>137963.79657936096</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>6325.23</Liquidität>
+    <Alternative_x0020_Anlagen>78838.01127807617</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2018 09</Monat>
+    <Aktien>946462.687007904</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>134815.07625579834</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>4403.250000000001</Liquidität>
+    <Alternative_x0020_Anlagen>78911.51042358398</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2018 10</Monat>
+    <Aktien>924424.3762316704</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>130049.43657684326</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>4391.64</Liquidität>
+    <Alternative_x0020_Anlagen>77984.01042358398</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2018 11</Monat>
+    <Aktien>928609.2983431816</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>135594.07044410706</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>5620.139999999999</Liquidität>
+    <Alternative_x0020_Anlagen>78582.5095690918</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2018 12</Monat>
+    <Aktien>918521.0941257477</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>129220.98749732971</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>3426.7599999999998</Liquidität>
+    <Alternative_x0020_Anlagen>78591.2595690918</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2019 01</Monat>
+    <Aktien>940465.1874680519</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>141578.7528705597</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>2831.76</Liquidität>
+    <Alternative_x0020_Anlagen>78629.4105090332</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2019 02</Monat>
+    <Aktien>938671.727766037</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>141771.52590751648</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>22403.769999999997</Liquidität>
+    <Alternative_x0020_Anlagen>58079.60963432312</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2019 03</Monat>
+    <Aktien>953285.0394539833</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>149039.86054992676</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>13496.34</Liquidität>
+    <Alternative_x0020_Anlagen>58120.21083061218</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2019 04</Monat>
+    <Aktien>956457.2344465256</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>145958.4275932312</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>13493.439999999999</Liquidität>
+    <Alternative_x0020_Anlagen>58201.41108695984</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2019 05</Monat>
+    <Aktien>953991.0001268387</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>146046.58358192444</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>15146.79</Liquidität>
+    <Alternative_x0020_Anlagen>58240.260574264525</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2019 06</Monat>
+    <Aktien>960275.3660902977</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>146655.2922077179</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>14709.84</Liquidität>
+    <Alternative_x0020_Anlagen>58251.811172409056</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2019 07</Monat>
+    <Aktien>953429.7280826569</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>148615.31168556213</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>17785.22</Liquidität>
+    <Alternative_x0020_Anlagen>58336.16023246765</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2019 08</Monat>
+    <Aktien>953447.5260753632</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>148446.90599441528</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>17782.32</Liquidität>
+    <Alternative_x0020_Anlagen>58239.91023246765</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2019 09</Monat>
+    <Aktien>967443.4027066231</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>151957.6026763916</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>19964.38</Liquidität>
+    <Alternative_x0020_Anlagen>58440.109207077025</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2019 10</Monat>
+    <Aktien>976456.896756649</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>153849.2539653778</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>21026.28</Liquidität>
+    <Alternative_x0020_Anlagen>58454.81074516296</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2019 11</Monat>
+    <Aktien>994411.6154975891</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>153426.00611495972</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>21321.85</Liquidität>
+    <Alternative_x0020_Anlagen>58239.91023246765</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2019 12</Monat>
+    <Aktien>1005468.0685148239</Aktien>
+    <Renten>55000</Renten>
+    <Immobilien>151319.7376728058</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>42352.29</Liquidität>
+    <Alternative_x0020_Anlagen>58154.159805221556</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2020 01</Monat>
+    <Aktien>1014499.587416172</Aktien>
+    <Renten>47500</Renten>
+    <Immobilien>154109.91924095154</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>11457.44</Liquidität>
+    <Alternative_x0020_Anlagen>59370.22047225952</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2020 02</Monat>
+    <Aktien>1013371.4823408127</Aktien>
+    <Renten>47500</Renten>
+    <Immobilien>158050.398519516</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>3773.71</Liquidität>
+    <Alternative_x0020_Anlagen>59396.820814056395</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2020 03</Monat>
+    <Aktien>4409917.0189528465</Aktien>
+    <Renten>47500</Renten>
+    <Immobilien>110423.17010498047</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>4588.23</Liquidität>
+    <Alternative_x0020_Anlagen>56779.51978866577</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2020 04</Monat>
+    <Aktien>5680019.375329971</Aktien>
+    <Renten>47500</Renten>
+    <Immobilien>17506384.315380096</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>4585.33</Liquidität>
+    <Alternative_x0020_Anlagen>59240.019361419676</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2020 05</Monat>
+    <Aktien>980462.3219223022</Aktien>
+    <Renten>47500</Renten>
+    <Immobilien>119521.82345199585</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>5543.36</Liquidität>
+    <Alternative_x0020_Anlagen>58639.77064315796</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2020 06</Monat>
+    <Aktien>994845.9000453949</Aktien>
+    <Renten>47500</Renten>
+    <Immobilien>120323.57343482971</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>7811.51</Liquidität>
+    <Alternative_x0020_Anlagen>58564.51978866577</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2020 07</Monat>
+    <Aktien>1001892.0465717316</Aktien>
+    <Renten>47500</Renten>
+    <Immobilien>119827.54830169678</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>9969.91</Liquidität>
+    <Alternative_x0020_Anlagen>58771.71919052124</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2020 08</Monat>
+    <Aktien>1009122.8360857964</Aktien>
+    <Renten>47500</Renten>
+    <Immobilien>122337.67392921448</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>10522.82</Liquidität>
+    <Alternative_x0020_Anlagen>58846.269361419676</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2020 09</Monat>
+    <Aktien>1030588.4920959473</Aktien>
+    <Renten>47500</Renten>
+    <Immobilien>120426.50199699402</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>41445.59</Liquidität>
+    <Alternative_x0020_Anlagen>59490.27021591186</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+  <Data>
+    <Monat>2020 10</Monat>
+    <Aktien>1032685.5891704559</Aktien>
+    <Renten>47500</Renten>
+    <Immobilien>120886.29854011536</Immobilien>
+    <Unternehmerische_x0020_Beteiligungen>0</Unternehmerische_x0020_Beteiligungen>
+    <Liquidität>41441.69</Liquidität>
+    <Alternative_x0020_Anlagen>59054.51978866577</Alternative_x0020_Anlagen>
+    <Sonstiges>0</Sonstiges>
+  </Data>
+</NewDataSet>

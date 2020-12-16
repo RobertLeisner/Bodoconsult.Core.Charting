@@ -1,0 +1,839 @@
+﻿<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Data" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Monat" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="260" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Vermögen" type="xs:double" minOccurs="0" />
+                <xs:element name="Investmentbetrag" type="xs:double" minOccurs="0" />
+                <xs:element name="Jahr" type="xs:int" minOccurs="0" />
+                <xs:element name="Monat1" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Data>
+    <Monat>2010 11</Monat>
+    <Vermögen>971968.7754160156</Vermögen>
+    <Investmentbetrag>884438.25</Investmentbetrag>
+    <Jahr>2010</Jahr>
+    <Monat1>11</Monat1>
+  </Data>
+  <Data>
+    <Monat>2010 12</Monat>
+    <Vermögen>1004585.6727883911</Vermögen>
+    <Investmentbetrag>889833.5</Investmentbetrag>
+    <Jahr>2010</Jahr>
+    <Monat1>12</Monat1>
+  </Data>
+  <Data>
+    <Monat>2011 01</Monat>
+    <Vermögen>996180.6078471071</Vermögen>
+    <Investmentbetrag>890625.5500000002</Investmentbetrag>
+    <Jahr>2011</Jahr>
+    <Monat1>1</Monat1>
+  </Data>
+  <Data>
+    <Monat>2011 02</Monat>
+    <Vermögen>1001830.5090097046</Vermögen>
+    <Investmentbetrag>890790.8400000001</Investmentbetrag>
+    <Jahr>2011</Jahr>
+    <Monat1>2</Monat1>
+  </Data>
+  <Data>
+    <Monat>2011 03</Monat>
+    <Vermögen>990433.8350413206</Vermögen>
+    <Investmentbetrag>890405.6400000001</Investmentbetrag>
+    <Jahr>2011</Jahr>
+    <Monat1>3</Monat1>
+  </Data>
+  <Data>
+    <Monat>2011 04</Monat>
+    <Vermögen>1018451.0121947022</Vermögen>
+    <Investmentbetrag>891053.81</Investmentbetrag>
+    <Jahr>2011</Jahr>
+    <Monat1>4</Monat1>
+  </Data>
+  <Data>
+    <Monat>2011 05</Monat>
+    <Vermögen>1026470.497741333</Vermögen>
+    <Investmentbetrag>894859.29</Investmentbetrag>
+    <Jahr>2011</Jahr>
+    <Monat1>5</Monat1>
+  </Data>
+  <Data>
+    <Monat>2011 06</Monat>
+    <Vermögen>1024587.522152588</Vermögen>
+    <Investmentbetrag>903113.81</Investmentbetrag>
+    <Jahr>2011</Jahr>
+    <Monat1>6</Monat1>
+  </Data>
+  <Data>
+    <Monat>2011 07</Monat>
+    <Vermögen>1026175.6083969726</Vermögen>
+    <Investmentbetrag>902851.5000000001</Investmentbetrag>
+    <Jahr>2011</Jahr>
+    <Monat1>7</Monat1>
+  </Data>
+  <Data>
+    <Monat>2011 08</Monat>
+    <Vermögen>989441.1505106811</Vermögen>
+    <Investmentbetrag>902851.5000000001</Investmentbetrag>
+    <Jahr>2011</Jahr>
+    <Monat1>8</Monat1>
+  </Data>
+  <Data>
+    <Monat>2011 09</Monat>
+    <Vermögen>968620.0507599488</Vermögen>
+    <Investmentbetrag>890409.5700000002</Investmentbetrag>
+    <Jahr>2011</Jahr>
+    <Monat1>9</Monat1>
+  </Data>
+  <Data>
+    <Monat>2011 10</Monat>
+    <Vermögen>808155.8850265503</Vermögen>
+    <Investmentbetrag>711014.1600000001</Investmentbetrag>
+    <Jahr>2011</Jahr>
+    <Monat1>10</Monat1>
+  </Data>
+  <Data>
+    <Monat>2011 11</Monat>
+    <Vermögen>802353.0697366333</Vermögen>
+    <Investmentbetrag>711079.4000000001</Investmentbetrag>
+    <Jahr>2011</Jahr>
+    <Monat1>11</Monat1>
+  </Data>
+  <Data>
+    <Monat>2011 12</Monat>
+    <Vermögen>815983.8636969605</Vermögen>
+    <Investmentbetrag>711699.06</Investmentbetrag>
+    <Jahr>2011</Jahr>
+    <Monat1>12</Monat1>
+  </Data>
+  <Data>
+    <Monat>2012 01</Monat>
+    <Vermögen>841062.6913917845</Vermögen>
+    <Investmentbetrag>722300.93</Investmentbetrag>
+    <Jahr>2012</Jahr>
+    <Monat1>1</Monat1>
+  </Data>
+  <Data>
+    <Monat>2012 02</Monat>
+    <Vermögen>851176.8022804565</Vermögen>
+    <Investmentbetrag>723661.47</Investmentbetrag>
+    <Jahr>2012</Jahr>
+    <Monat1>2</Monat1>
+  </Data>
+  <Data>
+    <Monat>2012 03</Monat>
+    <Vermögen>850435.0816893311</Vermögen>
+    <Investmentbetrag>722497.8599999999</Investmentbetrag>
+    <Jahr>2012</Jahr>
+    <Monat1>3</Monat1>
+  </Data>
+  <Data>
+    <Monat>2012 04</Monat>
+    <Vermögen>821676.2821949462</Vermögen>
+    <Investmentbetrag>693105.8599999999</Investmentbetrag>
+    <Jahr>2012</Jahr>
+    <Monat1>4</Monat1>
+  </Data>
+  <Data>
+    <Monat>2012 05</Monat>
+    <Vermögen>809565.415109497</Vermögen>
+    <Investmentbetrag>693147.45</Investmentbetrag>
+    <Jahr>2012</Jahr>
+    <Monat1>5</Monat1>
+  </Data>
+  <Data>
+    <Monat>2012 06</Monat>
+    <Vermögen>824914.4257952882</Vermögen>
+    <Investmentbetrag>693150.9299999999</Investmentbetrag>
+    <Jahr>2012</Jahr>
+    <Monat1>6</Monat1>
+  </Data>
+  <Data>
+    <Monat>2012 07</Monat>
+    <Vermögen>844862.8613421022</Vermögen>
+    <Investmentbetrag>694781.46</Investmentbetrag>
+    <Jahr>2012</Jahr>
+    <Monat1>7</Monat1>
+  </Data>
+  <Data>
+    <Monat>2012 08</Monat>
+    <Vermögen>843335.4989191894</Vermögen>
+    <Investmentbetrag>694788.74</Investmentbetrag>
+    <Jahr>2012</Jahr>
+    <Monat1>8</Monat1>
+  </Data>
+  <Data>
+    <Monat>2012 09</Monat>
+    <Vermögen>859767.8033673859</Vermögen>
+    <Investmentbetrag>694946.91</Investmentbetrag>
+    <Jahr>2012</Jahr>
+    <Monat1>9</Monat1>
+  </Data>
+  <Data>
+    <Monat>2012 10</Monat>
+    <Vermögen>859315.4534217834</Vermögen>
+    <Investmentbetrag>694960.2399999998</Investmentbetrag>
+    <Jahr>2012</Jahr>
+    <Monat1>10</Monat1>
+  </Data>
+  <Data>
+    <Monat>2012 11</Monat>
+    <Vermögen>845544.5549814606</Vermögen>
+    <Investmentbetrag>675590.52</Investmentbetrag>
+    <Jahr>2012</Jahr>
+    <Monat1>11</Monat1>
+  </Data>
+  <Data>
+    <Monat>2012 12</Monat>
+    <Vermögen>862256.1242907715</Vermögen>
+    <Investmentbetrag>683456.13</Investmentbetrag>
+    <Jahr>2012</Jahr>
+    <Monat1>12</Monat1>
+  </Data>
+  <Data>
+    <Monat>2013 01</Monat>
+    <Vermögen>864354.9520740891</Vermögen>
+    <Investmentbetrag>684053.68</Investmentbetrag>
+    <Jahr>2013</Jahr>
+    <Monat1>1</Monat1>
+  </Data>
+  <Data>
+    <Monat>2013 02</Monat>
+    <Vermögen>884988.3932867814</Vermögen>
+    <Investmentbetrag>684935.1100000001</Investmentbetrag>
+    <Jahr>2013</Jahr>
+    <Monat1>2</Monat1>
+  </Data>
+  <Data>
+    <Monat>2013 03</Monat>
+    <Vermögen>905795.9845335006</Vermögen>
+    <Investmentbetrag>684331.9800000001</Investmentbetrag>
+    <Jahr>2013</Jahr>
+    <Monat1>3</Monat1>
+  </Data>
+  <Data>
+    <Monat>2013 04</Monat>
+    <Vermögen>918140.5762599563</Vermögen>
+    <Investmentbetrag>684832.4900000001</Investmentbetrag>
+    <Jahr>2013</Jahr>
+    <Monat1>4</Monat1>
+  </Data>
+  <Data>
+    <Monat>2013 05</Monat>
+    <Vermögen>930238.1457450867</Vermögen>
+    <Investmentbetrag>698857.0900000001</Investmentbetrag>
+    <Jahr>2013</Jahr>
+    <Monat1>5</Monat1>
+  </Data>
+  <Data>
+    <Monat>2013 06</Monat>
+    <Vermögen>918347.5037244225</Vermögen>
+    <Investmentbetrag>698857.9600000002</Investmentbetrag>
+    <Jahr>2013</Jahr>
+    <Monat1>6</Monat1>
+  </Data>
+  <Data>
+    <Monat>2013 07</Monat>
+    <Vermögen>933744.486397705</Vermögen>
+    <Investmentbetrag>702269.53</Investmentbetrag>
+    <Jahr>2013</Jahr>
+    <Monat1>7</Monat1>
+  </Data>
+  <Data>
+    <Monat>2013 08</Monat>
+    <Vermögen>919864.117079792</Vermögen>
+    <Investmentbetrag>703729.8500000001</Investmentbetrag>
+    <Jahr>2013</Jahr>
+    <Monat1>8</Monat1>
+  </Data>
+  <Data>
+    <Monat>2013 09</Monat>
+    <Vermögen>942674.292008152</Vermögen>
+    <Investmentbetrag>702123.8700000001</Investmentbetrag>
+    <Jahr>2013</Jahr>
+    <Monat1>9</Monat1>
+  </Data>
+  <Data>
+    <Monat>2013 10</Monat>
+    <Vermögen>954824.7316250419</Vermögen>
+    <Investmentbetrag>702481.53</Investmentbetrag>
+    <Jahr>2013</Jahr>
+    <Monat1>10</Monat1>
+  </Data>
+  <Data>
+    <Monat>2013 11</Monat>
+    <Vermögen>957204.7186095619</Vermögen>
+    <Investmentbetrag>701712.92</Investmentbetrag>
+    <Jahr>2013</Jahr>
+    <Monat1>11</Monat1>
+  </Data>
+  <Data>
+    <Monat>2013 12</Monat>
+    <Vermögen>927375.7524357032</Vermögen>
+    <Investmentbetrag>678359.2</Investmentbetrag>
+    <Jahr>2013</Jahr>
+    <Monat1>12</Monat1>
+  </Data>
+  <Data>
+    <Monat>2014 01</Monat>
+    <Vermögen>913475.1824643897</Vermögen>
+    <Investmentbetrag>668713.96</Investmentbetrag>
+    <Jahr>2014</Jahr>
+    <Monat1>1</Monat1>
+  </Data>
+  <Data>
+    <Monat>2014 02</Monat>
+    <Vermögen>921914.1817736626</Vermögen>
+    <Investmentbetrag>669585.38</Investmentbetrag>
+    <Jahr>2014</Jahr>
+    <Monat1>2</Monat1>
+  </Data>
+  <Data>
+    <Monat>2014 03</Monat>
+    <Vermögen>925768.082495594</Vermögen>
+    <Investmentbetrag>670838.8400000002</Investmentbetrag>
+    <Jahr>2014</Jahr>
+    <Monat1>3</Monat1>
+  </Data>
+  <Data>
+    <Monat>2014 04</Monat>
+    <Vermögen>937759.1757860375</Vermögen>
+    <Investmentbetrag>684223.4800000001</Investmentbetrag>
+    <Jahr>2014</Jahr>
+    <Monat1>4</Monat1>
+  </Data>
+  <Data>
+    <Monat>2014 05</Monat>
+    <Vermögen>984061.4327335167</Vermögen>
+    <Investmentbetrag>701049.0200000001</Investmentbetrag>
+    <Jahr>2014</Jahr>
+    <Monat1>5</Monat1>
+  </Data>
+  <Data>
+    <Monat>2014 06</Monat>
+    <Vermögen>986693.7464431381</Vermögen>
+    <Investmentbetrag>691079.8300000001</Investmentbetrag>
+    <Jahr>2014</Jahr>
+    <Monat1>6</Monat1>
+  </Data>
+  <Data>
+    <Monat>2014 07</Monat>
+    <Vermögen>988501.6472080995</Vermögen>
+    <Investmentbetrag>693482.9500000002</Investmentbetrag>
+    <Jahr>2014</Jahr>
+    <Monat1>7</Monat1>
+  </Data>
+  <Data>
+    <Monat>2014 08</Monat>
+    <Vermögen>1020920.8216364288</Vermögen>
+    <Investmentbetrag>705458.8300000002</Investmentbetrag>
+    <Jahr>2014</Jahr>
+    <Monat1>8</Monat1>
+  </Data>
+  <Data>
+    <Monat>2014 09</Monat>
+    <Vermögen>1025375.4383842469</Vermögen>
+    <Investmentbetrag>703814.9000000003</Investmentbetrag>
+    <Jahr>2014</Jahr>
+    <Monat1>9</Monat1>
+  </Data>
+  <Data>
+    <Monat>2014 10</Monat>
+    <Vermögen>1035756.4925950622</Vermögen>
+    <Investmentbetrag>703860.0800000002</Investmentbetrag>
+    <Jahr>2014</Jahr>
+    <Monat1>10</Monat1>
+  </Data>
+  <Data>
+    <Monat>2014 11</Monat>
+    <Vermögen>1046064.380096016</Vermögen>
+    <Investmentbetrag>699982.08</Investmentbetrag>
+    <Jahr>2014</Jahr>
+    <Monat1>11</Monat1>
+  </Data>
+  <Data>
+    <Monat>2014 12</Monat>
+    <Vermögen>1056148.576394081</Vermögen>
+    <Investmentbetrag>702294.94</Investmentbetrag>
+    <Jahr>2014</Jahr>
+    <Monat1>12</Monat1>
+  </Data>
+  <Data>
+    <Monat>2015 01</Monat>
+    <Vermögen>1102378.353976059</Vermögen>
+    <Investmentbetrag>690341.6900000001</Investmentbetrag>
+    <Jahr>2015</Jahr>
+    <Monat1>1</Monat1>
+  </Data>
+  <Data>
+    <Monat>2015 02</Monat>
+    <Vermögen>1132826.4093690873</Vermögen>
+    <Investmentbetrag>690344.61</Investmentbetrag>
+    <Jahr>2015</Jahr>
+    <Monat1>2</Monat1>
+  </Data>
+  <Data>
+    <Monat>2015 03</Monat>
+    <Vermögen>1155673.1808712005</Vermögen>
+    <Investmentbetrag>689212.5800000001</Investmentbetrag>
+    <Jahr>2015</Jahr>
+    <Monat1>3</Monat1>
+  </Data>
+  <Data>
+    <Monat>2015 04</Monat>
+    <Vermögen>1175834.5394488715</Vermögen>
+    <Investmentbetrag>689560.3200000001</Investmentbetrag>
+    <Jahr>2015</Jahr>
+    <Monat1>4</Monat1>
+  </Data>
+  <Data>
+    <Monat>2015 05</Monat>
+    <Vermögen>1160217.165007725</Vermögen>
+    <Investmentbetrag>685224.1499999999</Investmentbetrag>
+    <Jahr>2015</Jahr>
+    <Monat1>5</Monat1>
+  </Data>
+  <Data>
+    <Monat>2015 06</Monat>
+    <Vermögen>1147582.230853176</Vermögen>
+    <Investmentbetrag>699735.36</Investmentbetrag>
+    <Jahr>2015</Jahr>
+    <Monat1>6</Monat1>
+  </Data>
+  <Data>
+    <Monat>2015 07</Monat>
+    <Vermögen>1158914.8297094344</Vermögen>
+    <Investmentbetrag>697674.0099999999</Investmentbetrag>
+    <Jahr>2015</Jahr>
+    <Monat1>7</Monat1>
+  </Data>
+  <Data>
+    <Monat>2015 08</Monat>
+    <Vermögen>1102268.997089882</Vermögen>
+    <Investmentbetrag>701884.98</Investmentbetrag>
+    <Jahr>2015</Jahr>
+    <Monat1>8</Monat1>
+  </Data>
+  <Data>
+    <Monat>2015 09</Monat>
+    <Vermögen>1097916.1670471572</Vermögen>
+    <Investmentbetrag>699949.4199999999</Investmentbetrag>
+    <Jahr>2015</Jahr>
+    <Monat1>9</Monat1>
+  </Data>
+  <Data>
+    <Monat>2015 10</Monat>
+    <Vermögen>1147031.0057012367</Vermögen>
+    <Investmentbetrag>694282.6099999999</Investmentbetrag>
+    <Jahr>2015</Jahr>
+    <Monat1>10</Monat1>
+  </Data>
+  <Data>
+    <Monat>2015 11</Monat>
+    <Vermögen>1164812.5012668418</Vermögen>
+    <Investmentbetrag>689277.4700000002</Investmentbetrag>
+    <Jahr>2015</Jahr>
+    <Monat1>11</Monat1>
+  </Data>
+  <Data>
+    <Monat>2015 12</Monat>
+    <Vermögen>1129322.645355282</Vermögen>
+    <Investmentbetrag>676445.1100000001</Investmentbetrag>
+    <Jahr>2015</Jahr>
+    <Monat1>12</Monat1>
+  </Data>
+  <Data>
+    <Monat>2016 01</Monat>
+    <Vermögen>1064963.7220589255</Vermögen>
+    <Investmentbetrag>651675.32</Investmentbetrag>
+    <Jahr>2016</Jahr>
+    <Monat1>1</Monat1>
+  </Data>
+  <Data>
+    <Monat>2016 02</Monat>
+    <Vermögen>1070602.374757328</Vermögen>
+    <Investmentbetrag>650667.62</Investmentbetrag>
+    <Jahr>2016</Jahr>
+    <Monat1>2</Monat1>
+  </Data>
+  <Data>
+    <Monat>2016 03</Monat>
+    <Vermögen>1071395.1077946664</Vermögen>
+    <Investmentbetrag>636330.3300000001</Investmentbetrag>
+    <Jahr>2016</Jahr>
+    <Monat1>3</Monat1>
+  </Data>
+  <Data>
+    <Monat>2016 04</Monat>
+    <Vermögen>1073411.1878011704</Vermögen>
+    <Investmentbetrag>626897.4799999999</Investmentbetrag>
+    <Jahr>2016</Jahr>
+    <Monat1>4</Monat1>
+  </Data>
+  <Data>
+    <Monat>2016 05</Monat>
+    <Vermögen>1097855.0366292</Vermögen>
+    <Investmentbetrag>621203.7299999999</Investmentbetrag>
+    <Jahr>2016</Jahr>
+    <Monat1>5</Monat1>
+  </Data>
+  <Data>
+    <Monat>2016 06</Monat>
+    <Vermögen>1075627.518375454</Vermögen>
+    <Investmentbetrag>598966.79</Investmentbetrag>
+    <Jahr>2016</Jahr>
+    <Monat1>6</Monat1>
+  </Data>
+  <Data>
+    <Monat>2016 07</Monat>
+    <Vermögen>1074514.2996938895</Vermögen>
+    <Investmentbetrag>576656.3700000001</Investmentbetrag>
+    <Jahr>2016</Jahr>
+    <Monat1>7</Monat1>
+  </Data>
+  <Data>
+    <Monat>2016 08</Monat>
+    <Vermögen>1089495.0852622031</Vermögen>
+    <Investmentbetrag>575415.47</Investmentbetrag>
+    <Jahr>2016</Jahr>
+    <Monat1>8</Monat1>
+  </Data>
+  <Data>
+    <Monat>2016 09</Monat>
+    <Vermögen>1060211.0657847023</Vermögen>
+    <Investmentbetrag>547410.7700000001</Investmentbetrag>
+    <Jahr>2016</Jahr>
+    <Monat1>9</Monat1>
+  </Data>
+  <Data>
+    <Monat>2016 10</Monat>
+    <Vermögen>981526.1180823136</Vermögen>
+    <Investmentbetrag>472706.79000000004</Investmentbetrag>
+    <Jahr>2016</Jahr>
+    <Monat1>10</Monat1>
+  </Data>
+  <Data>
+    <Monat>2016 11</Monat>
+    <Vermögen>974401.0496284484</Vermögen>
+    <Investmentbetrag>473245.70999999996</Investmentbetrag>
+    <Jahr>2016</Jahr>
+    <Monat1>11</Monat1>
+  </Data>
+  <Data>
+    <Monat>2016 12</Monat>
+    <Vermögen>992659.6431717109</Vermögen>
+    <Investmentbetrag>475411.67999999993</Investmentbetrag>
+    <Jahr>2016</Jahr>
+    <Monat1>12</Monat1>
+  </Data>
+  <Data>
+    <Monat>2017 01</Monat>
+    <Vermögen>995350.1999090004</Vermögen>
+    <Investmentbetrag>474675.7999999998</Investmentbetrag>
+    <Jahr>2017</Jahr>
+    <Monat1>1</Monat1>
+  </Data>
+  <Data>
+    <Monat>2017 02</Monat>
+    <Vermögen>1012415.3723775101</Vermögen>
+    <Investmentbetrag>465234.64</Investmentbetrag>
+    <Jahr>2017</Jahr>
+    <Monat1>2</Monat1>
+  </Data>
+  <Data>
+    <Monat>2017 03</Monat>
+    <Vermögen>1019823.5993818473</Vermögen>
+    <Investmentbetrag>467243.43999999994</Investmentbetrag>
+    <Jahr>2017</Jahr>
+    <Monat1>3</Monat1>
+  </Data>
+  <Data>
+    <Monat>2017 04</Monat>
+    <Vermögen>1016981.1416716767</Vermögen>
+    <Investmentbetrag>455260.44999999995</Investmentbetrag>
+    <Jahr>2017</Jahr>
+    <Monat1>4</Monat1>
+  </Data>
+  <Data>
+    <Monat>2017 05</Monat>
+    <Vermögen>1375902.201889553</Vermögen>
+    <Investmentbetrag>803688.4600000002</Investmentbetrag>
+    <Jahr>2017</Jahr>
+    <Monat1>5</Monat1>
+  </Data>
+  <Data>
+    <Monat>2017 06</Monat>
+    <Vermögen>1331812.4158509637</Vermögen>
+    <Investmentbetrag>753412.21</Investmentbetrag>
+    <Jahr>2017</Jahr>
+    <Monat1>6</Monat1>
+  </Data>
+  <Data>
+    <Monat>2017 07</Monat>
+    <Vermögen>1329309.0442957496</Vermögen>
+    <Investmentbetrag>745409.3100000002</Investmentbetrag>
+    <Jahr>2017</Jahr>
+    <Monat1>7</Monat1>
+  </Data>
+  <Data>
+    <Monat>2017 08</Monat>
+    <Vermögen>1345331.6825007629</Vermögen>
+    <Investmentbetrag>756450.7700000003</Investmentbetrag>
+    <Jahr>2017</Jahr>
+    <Monat1>8</Monat1>
+  </Data>
+  <Data>
+    <Monat>2017 09</Monat>
+    <Vermögen>1347831.6269864845</Vermögen>
+    <Investmentbetrag>748591.7900000002</Investmentbetrag>
+    <Jahr>2017</Jahr>
+    <Monat1>9</Monat1>
+  </Data>
+  <Data>
+    <Monat>2017 10</Monat>
+    <Vermögen>1353802.2591351317</Vermögen>
+    <Investmentbetrag>743493.6900000001</Investmentbetrag>
+    <Jahr>2017</Jahr>
+    <Monat1>10</Monat1>
+  </Data>
+  <Data>
+    <Monat>2017 11</Monat>
+    <Vermögen>1342043.023638668</Vermögen>
+    <Investmentbetrag>741237.3200000001</Investmentbetrag>
+    <Jahr>2017</Jahr>
+    <Monat1>11</Monat1>
+  </Data>
+  <Data>
+    <Monat>2017 12</Monat>
+    <Vermögen>1315404.9096458245</Vermögen>
+    <Investmentbetrag>716713.1800000003</Investmentbetrag>
+    <Jahr>2017</Jahr>
+    <Monat1>12</Monat1>
+  </Data>
+  <Data>
+    <Monat>2018 01</Monat>
+    <Vermögen>1300525.9404418755</Vermögen>
+    <Investmentbetrag>698892.0400000002</Investmentbetrag>
+    <Jahr>2018</Jahr>
+    <Monat1>1</Monat1>
+  </Data>
+  <Data>
+    <Monat>2018 02</Monat>
+    <Vermögen>1276877.9043410493</Vermögen>
+    <Investmentbetrag>683889.1400000001</Investmentbetrag>
+    <Jahr>2018</Jahr>
+    <Monat1>2</Monat1>
+  </Data>
+  <Data>
+    <Monat>2018 07</Monat>
+    <Vermögen>1232394.300506363</Vermögen>
+    <Investmentbetrag>629803.3300000001</Investmentbetrag>
+    <Jahr>2018</Jahr>
+    <Monat1>7</Monat1>
+  </Data>
+  <Data>
+    <Monat>2018 08</Monat>
+    <Vermögen>1239798.7094091414</Vermögen>
+    <Investmentbetrag>631789.1500000001</Investmentbetrag>
+    <Jahr>2018</Jahr>
+    <Monat1>8</Monat1>
+  </Data>
+  <Data>
+    <Monat>2018 09</Monat>
+    <Vermögen>1226956.5236262511</Vermögen>
+    <Investmentbetrag>628222.0700000001</Investmentbetrag>
+    <Jahr>2018</Jahr>
+    <Monat1>9</Monat1>
+  </Data>
+  <Data>
+    <Monat>2018 10</Monat>
+    <Vermögen>1199213.4631710623</Vermögen>
+    <Investmentbetrag>628210.4600000001</Investmentbetrag>
+    <Jahr>2018</Jahr>
+    <Monat1>10</Monat1>
+  </Data>
+  <Data>
+    <Monat>2018 11</Monat>
+    <Vermögen>1210770.0182953454</Vermögen>
+    <Investmentbetrag>628513.1200000001</Investmentbetrag>
+    <Jahr>2018</Jahr>
+    <Monat1>11</Monat1>
+  </Data>
+  <Data>
+    <Monat>2018 12</Monat>
+    <Vermögen>1192124.101131134</Vermögen>
+    <Investmentbetrag>625752.8300000001</Investmentbetrag>
+    <Jahr>2018</Jahr>
+    <Monat1>12</Monat1>
+  </Data>
+  <Data>
+    <Monat>2019 01</Monat>
+    <Vermögen>1225869.1107866096</Vermögen>
+    <Investmentbetrag>625157.8300000001</Investmentbetrag>
+    <Jahr>2019</Jahr>
+    <Monat1>1</Monat1>
+  </Data>
+  <Data>
+    <Monat>2019 02</Monat>
+    <Vermögen>1223290.6332468414</Vermögen>
+    <Investmentbetrag>635986.3</Investmentbetrag>
+    <Jahr>2019</Jahr>
+    <Monat1>2</Monat1>
+  </Data>
+  <Data>
+    <Monat>2019 03</Monat>
+    <Vermögen>1236305.450773487</Vermögen>
+    <Investmentbetrag>626350.1300000001</Investmentbetrag>
+    <Jahr>2019</Jahr>
+    <Monat1>3</Monat1>
+  </Data>
+  <Data>
+    <Monat>2019 04</Monat>
+    <Vermögen>1236474.5130656813</Vermögen>
+    <Investmentbetrag>626347.23</Investmentbetrag>
+    <Jahr>2019</Jahr>
+    <Monat1>4</Monat1>
+  </Data>
+  <Data>
+    <Monat>2019 05</Monat>
+    <Vermögen>1235788.6342219925</Vermögen>
+    <Investmentbetrag>627644.3300000001</Investmentbetrag>
+    <Jahr>2019</Jahr>
+    <Monat1>5</Monat1>
+  </Data>
+  <Data>
+    <Monat>2019 06</Monat>
+    <Vermögen>1242256.3094093895</Vermögen>
+    <Investmentbetrag>624898.6500000001</Investmentbetrag>
+    <Jahr>2019</Jahr>
+    <Monat1>6</Monat1>
+  </Data>
+  <Data>
+    <Monat>2019 07</Monat>
+    <Vermögen>1240530.4199396514</Vermögen>
+    <Investmentbetrag>624895.75</Investmentbetrag>
+    <Jahr>2019</Jahr>
+    <Monat1>7</Monat1>
+  </Data>
+  <Data>
+    <Monat>2019 08</Monat>
+    <Vermögen>1240280.662241211</Vermögen>
+    <Investmentbetrag>624887.05</Investmentbetrag>
+    <Jahr>2019</Jahr>
+    <Monat1>8</Monat1>
+  </Data>
+  <Data>
+    <Monat>2019 09</Monat>
+    <Vermögen>1260169.4945290566</Vermögen>
+    <Investmentbetrag>625190.4099999999</Investmentbetrag>
+    <Jahr>2019</Jahr>
+    <Monat1>9</Monat1>
+  </Data>
+  <Data>
+    <Monat>2019 10</Monat>
+    <Vermögen>1272151.2414061546</Vermögen>
+    <Investmentbetrag>626082.3800000001</Investmentbetrag>
+    <Jahr>2019</Jahr>
+    <Monat1>10</Monat1>
+  </Data>
+  <Data>
+    <Monat>2019 11</Monat>
+    <Vermögen>1289763.3817839813</Vermögen>
+    <Investmentbetrag>626065.3800000001</Investmentbetrag>
+    <Jahr>2019</Jahr>
+    <Monat1>11</Monat1>
+  </Data>
+  <Data>
+    <Monat>2019 12</Monat>
+    <Vermögen>1319658.255931816</Vermögen>
+    <Investmentbetrag>645931.8500000001</Investmentbetrag>
+    <Jahr>2019</Jahr>
+    <Monat1>12</Monat1>
+  </Data>
+  <Data>
+    <Monat>2020 01</Monat>
+    <Vermögen>1294301.1670683478</Vermögen>
+    <Investmentbetrag>627562.73</Investmentbetrag>
+    <Jahr>2020</Jahr>
+    <Monat1>1</Monat1>
+  </Data>
+  <Data>
+    <Monat>2020 02</Monat>
+    <Vermögen>1289456.4116133498</Vermögen>
+    <Investmentbetrag>619538.9000000001</Investmentbetrag>
+    <Jahr>2020</Jahr>
+    <Monat1>2</Monat1>
+  </Data>
+  <Data>
+    <Monat>2020 03</Monat>
+    <Vermögen>1252327.11</Vermögen>
+    <Investmentbetrag>620036.0000000002</Investmentbetrag>
+    <Jahr>2020</Jahr>
+    <Monat1>3</Monat1>
+  </Data>
+  <Data>
+    <Monat>2020 04</Monat>
+    <Vermögen>1252327.11</Vermögen>
+    <Investmentbetrag>620033.1000000001</Investmentbetrag>
+    <Jahr>2020</Jahr>
+    <Monat1>4</Monat1>
+  </Data>
+  <Data>
+    <Monat>2020 05</Monat>
+    <Vermögen>1219031.275956421</Vermögen>
+    <Investmentbetrag>620273.8800000001</Investmentbetrag>
+    <Jahr>2020</Jahr>
+    <Monat1>5</Monat1>
+  </Data>
+  <Data>
+    <Monat>2020 06</Monat>
+    <Vermögen>1236409.5032078552</Vermögen>
+    <Investmentbetrag>621271.6800000002</Investmentbetrag>
+    <Jahr>2020</Jahr>
+    <Monat1>6</Monat1>
+  </Data>
+  <Data>
+    <Monat>2020 07</Monat>
+    <Vermögen>1245325.2240029145</Vermögen>
+    <Investmentbetrag>626739.56</Investmentbetrag>
+    <Jahr>2020</Jahr>
+    <Monat1>7</Monat1>
+  </Data>
+  <Data>
+    <Monat>2020 08</Monat>
+    <Vermögen>1255693.5993153953</Vermögen>
+    <Investmentbetrag>627070.4500000002</Investmentbetrag>
+    <Jahr>2020</Jahr>
+    <Monat1>8</Monat1>
+  </Data>
+  <Data>
+    <Monat>2020 09</Monat>
+    <Vermögen>1306814.854247818</Vermögen>
+    <Investmentbetrag>657066.55</Investmentbetrag>
+    <Jahr>2020</Jahr>
+    <Monat1>9</Monat1>
+  </Data>
+  <Data>
+    <Monat>2020 10</Monat>
+    <Vermögen>1308932.0974382018</Vermögen>
+    <Investmentbetrag>652096.6700000002</Investmentbetrag>
+    <Jahr>2020</Jahr>
+    <Monat1>10</Monat1>
+  </Data>
+</NewDataSet>

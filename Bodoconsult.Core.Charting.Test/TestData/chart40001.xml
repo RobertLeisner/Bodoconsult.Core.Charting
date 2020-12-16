@@ -1,0 +1,34 @@
+﻿<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Data" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Art_x0020_der_x0020_Energieerzeugung" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Ist_x0020_EUR" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Soll_x0020_EUR" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Data>
+    <Art_x0020_der_x0020_Energieerzeugung>Photovoltaik Aufdach</Art_x0020_der_x0020_Energieerzeugung>
+    <Soll_x0020_EUR>21899.0310</Soll_x0020_EUR>
+  </Data>
+  <Data>
+    <Art_x0020_der_x0020_Energieerzeugung>Photovoltaik Freifläche</Art_x0020_der_x0020_Energieerzeugung>
+    <Ist_x0020_EUR>2520.0000</Ist_x0020_EUR>
+    <Soll_x0020_EUR>28415.2201</Soll_x0020_EUR>
+  </Data>
+</NewDataSet>
