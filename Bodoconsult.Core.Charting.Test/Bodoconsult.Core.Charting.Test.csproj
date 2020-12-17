@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bodoconsult.Core.Charting.Base\Bodoconsult.Core.Charting.Base.csproj" />
     <ProjectReference Include="..\Bodoconsult.Core.Charting\Bodoconsult.Core.Charting.csproj" />
   </ItemGroup>
 

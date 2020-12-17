@@ -7,26 +7,23 @@
     <RepositoryUrl>https://github.com/RobertLeisner/Bodoconsult.Core.Charting</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageId>Bodoconsult.Core.Charting</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Robert Leisner</Authors>
     <Company>Bodoconsult EDV-Dienstleistungen GmbH</Company>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Chart database datatable ScottPlot piechart linechart risk return barchart pointchart</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Charting library based on ScottPlot library for easy charting of database data</Description>
-    <PackageReleaseNotes>First draft</PackageReleaseNotes>
+    <PackageReleaseNotes>Bugfixes</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/RobertLeisner/Bodoconsult.Core.Charting</PackageProjectUrl>
     <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Bodoconsult.Core.Charting.Base" Version="1.0.0" />
     <PackageReference Include="Bodoconsult.Core.Typography" Version="1.0.0" />
     <PackageReference Include="ScottPlot" Version="4.0.47" />
     <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Bodoconsult.Core.Charting.Base\Bodoconsult.Core.Charting.Base.csproj" />
   </ItemGroup>
 
 </Project>

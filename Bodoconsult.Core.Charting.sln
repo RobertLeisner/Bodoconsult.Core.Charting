@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bodoconsult.Core.Charting", "Bodoconsult.Core.Charting\Bodoconsult.Core.Charting.csproj", "{DD447D21-F42F-4D0E-9DBA-6E6AACAE12DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bodoconsult.Core.Charting", "Bodoconsult.Core.Charting\Bodoconsult.Core.Charting.csproj", "{DD447D21-F42F-4D0E-9DBA-6E6AACAE12DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bodoconsult.Core.Charting.Base", "Bodoconsult.Core.Charting.Base\Bodoconsult.Core.Charting.Base.csproj", "{7B9EB17A-04EF-4C7B-BD0C-E0848CCD6FC6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bodoconsult.Core.Charting.Test", "Bodoconsult.Core.Charting.Test\Bodoconsult.Core.Charting.Test.csproj", "{FC2B112A-9C84-4949-AA3D-746A31844F97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bodoconsult.Core.Charting.Test", "Bodoconsult.Core.Charting.Test\Bodoconsult.Core.Charting.Test.csproj", "{FC2B112A-9C84-4949-AA3D-746A31844F97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		{DD447D21-F42F-4D0E-9DBA-6E6AACAE12DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD447D21-F42F-4D0E-9DBA-6E6AACAE12DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD447D21-F42F-4D0E-9DBA-6E6AACAE12DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7B9EB17A-04EF-4C7B-BD0C-E0848CCD6FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B9EB17A-04EF-4C7B-BD0C-E0848CCD6FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B9EB17A-04EF-4C7B-BD0C-E0848CCD6FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B9EB17A-04EF-4C7B-BD0C-E0848CCD6FC6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FC2B112A-9C84-4949-AA3D-746A31844F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FC2B112A-9C84-4949-AA3D-746A31844F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC2B112A-9C84-4949-AA3D-746A31844F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
