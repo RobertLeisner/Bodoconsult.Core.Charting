@@ -1,9 +1,12 @@
-﻿using System;
+﻿// Copyright (c) Bodoconsult EDV-Dienstleistungen GmbH. All rights reserved.
+
+using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Runtime.Versioning;
 using Bodoconsult.Core.Charting.Base.Models;
 using Bodoconsult.Core.Typography.Charts;
 
@@ -12,7 +15,7 @@ namespace Bodoconsult.Core.Charting
     /// <summary>
     /// Handles the creation process of a Chart. Set property <see cref="set_ChartData"  /> and then export Chart as image or memorystream.
     /// </summary>
-    /// <typeparam name="T"></typeparam>
+    [SupportedOSPlatform("windows")]
     public class ChartHandler
     {
         ///// <summary>

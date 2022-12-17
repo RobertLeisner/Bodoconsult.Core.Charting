@@ -1,4 +1,8 @@
-﻿using System.IO;
+﻿// Copyright (c) Bodoconsult EDV-Dienstleistungen GmbH. All rights reserved.
+
+
+using System.IO;
+using System.Runtime.Versioning;
 using Bodoconsult.Core.Charting.Base.Models;
 using Bodoconsult.Core.Charting.Test.Helpers;
 using Bodoconsult.Core.Charting.Util;
@@ -9,6 +13,7 @@ using NUnit.Framework;
 namespace Bodoconsult.Core.Charting.Test
 {
     [TestFixture]
+    [SupportedOSPlatform("windows")]
     public class UnitTestChartHandler_WithDatabase: BaseTestChartHandler
     {
 

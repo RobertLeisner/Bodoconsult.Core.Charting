@@ -1,8 +1,12 @@
-﻿using System;
+﻿// Copyright (c) Bodoconsult EDV-Dienstleistungen GmbH. All rights reserved.
+
+
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Globalization;
 using System.Linq;
+using System.Runtime.Versioning;
 using Bodoconsult.Core.Charting.Base.Models;
 using ScottPlot;
 
@@ -12,6 +16,7 @@ namespace Bodoconsult.Core.Charting
     /// Creates a stacked bar chart
     /// </summary>
     /// <typeparam name="T">input data type</typeparam>
+    [SupportedOSPlatform("windows")]
     public class StackedBarChart<T> : BaseChart<T> where T : ChartItemData
     {
         /// <summary>
@@ -20,7 +25,10 @@ namespace Bodoconsult.Core.Charting
         public override void CreateChart()
         {
 
-            if (!ChartData.DataSource.Any()) return;
+            if (!ChartData.DataSource.Any())
+            {
+                return;
+            }
 
             var style = ChartData.ChartStyle;
             var count = ChartData.DataSource.Count;
@@ -125,55 +133,69 @@ namespace Bodoconsult.Core.Charting
                 if (index > 8) values10[index] = values10[index] + values9[index];
             }
 
-            if (countCol > 9) Chart.PlotBar(indexers, values10.ToArray(), horizontal: true, outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
-            if (countCol > 8) Chart.PlotBar(indexers, values9.ToArray(), horizontal: true, outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
-            if (countCol > 7) Chart.PlotBar(indexers, values8.ToArray(), horizontal: true, outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
-            if (countCol > 6) Chart.PlotBar(indexers, values7.ToArray(), horizontal: true, outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
-            if (countCol > 5) Chart.PlotBar(indexers, values6.ToArray(), horizontal: true, outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
-            if (countCol > 4) Chart.PlotBar(indexers, values5.ToArray(), horizontal: true, outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
-            if (countCol > 3) Chart.PlotBar(indexers, values4.ToArray(), horizontal: true, outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
-            if (countCol > 2) Chart.PlotBar(indexers, values3.ToArray(), horizontal: true, outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
-            if (countCol > 1) Chart.PlotBar(indexers, values2.ToArray(), horizontal: true, outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
-            if (countCol > 0) Chart.PlotBar(indexers, values1.ToArray(), horizontal: true, outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
+            if (countCol > 9) PlotBar(indexers, values10.ToArray(), outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
+            if (countCol > 8) PlotBar(indexers, values9.ToArray(), outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
+            if (countCol > 7) PlotBar(indexers, values8.ToArray(), outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
+            if (countCol > 6) PlotBar(indexers, values7.ToArray(), outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
+            if (countCol > 5) PlotBar(indexers, values6.ToArray(), outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
+            if (countCol > 4) PlotBar(indexers, values5.ToArray(), outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
+            if (countCol > 3) PlotBar(indexers, values4.ToArray(), outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
+            if (countCol > 2) PlotBar(indexers, values3.ToArray(), outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
+            if (countCol > 1) PlotBar(indexers, values2.ToArray(), outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
+            if (countCol > 0) PlotBar(indexers, values1.ToArray(), outlineColor: Color.Transparent, barWidth: 1D, outlineWidth: 0);
 
 
             // customize the plot to make it look nicer
-            Chart.Grid(enableVertical: false, lineStyle: LineStyle.Dot);
+            Chart.XAxis.Grid(false);
 
             Chart.YTicks(labelIndexers.ToArray(), labels.ToArray());
 
             // customize the plot to make it look nicer
-            Chart.Grid(enableVertical: false, lineStyle: LineStyle.Dot);
+            Chart.YAxis.Grid(false);
 
             // Titels for axis
             var label = string.IsNullOrEmpty(ChartData.YLabelText)
                 ? ChartData.PropertiesToUseForChart[1]
                 : ChartData.YLabelText;
 
-            Chart.XLabel(label, fontName: style.FontName, fontSize: style.FontSize * style.AxisTitleFontSizeDelta, bold: true);
+            Chart.XAxis.Label(label, fontName: style.FontName, size: style.FontSize * style.AxisTitleFontSizeDelta, bold: true);
 
             label = string.IsNullOrEmpty(ChartData.XLabelText)
                 ? ChartData.PropertiesToUseForChart[0]
                 : ChartData.XLabelText;
 
-            Chart.YLabel(label, fontName: style.FontName, fontSize: style.FontSize * style.AxisTitleFontSizeDelta, bold: true);
+            Chart.YAxis.Label(label, fontName: style.FontName, size: style.FontSize * style.AxisTitleFontSizeDelta, bold: true);
             
             string formatX;
             var formatY = string.IsNullOrEmpty(style.YAxisNumberformat) ? "0" : style.YAxisNumberformat;
             if (isDate)
             {
                 formatX = string.IsNullOrEmpty(style.XAxisNumberformat) ? CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern : style.XAxisNumberformat;
-                Chart.Ticks(dateTimeX: true, dateTimeFormatStringX: formatX, numericFormatStringY: formatY);
+                Chart.XAxis.TickLabelFormat(formatX, true);
+                Chart.YAxis.TickLabelFormat(formatY, false);
             }
             else
             {
                 formatX = string.IsNullOrEmpty(style.XAxisNumberformat) ? "0" : style.XAxisNumberformat;
-                Chart.Ticks(dateTimeX: false, numericFormatStringX: formatX, numericFormatStringY: formatY);
+                Chart.XAxis.TickLabelFormat(formatX, false);
+                Chart.YAxis.TickLabelFormat(formatY, false);
             }
 
             base.CreateChart();
 
             
+        }
+
+        private void PlotBar(double[] xValues, double[] yValues, Color outlineColor, double barWidth, int outlineWidth)
+        {
+            var bar = Chart.AddBar(yValues, xValues);
+            bar.BarWidth = barWidth;
+            bar.Orientation = Orientation.Horizontal;
+            bar.BorderColor = outlineColor;
+            bar.BorderLineWidth = outlineWidth;
+
+            //Chart.PlotBar(xValues, yValues, horizontal: horizontal, outlineColor: outlineColor, barWidth: barWidth,
+            //    outlineWidth: outlineWidth);
         }
 
 
@@ -186,10 +208,21 @@ namespace Bodoconsult.Core.Charting
 
             var style = ChartData.ChartStyle;
 
-            Chart.Legend(enableLegend: true, location: legendLocation.lowerRight, backColor: Color.WhiteSmoke, frameColor: Color.Transparent,
-                fontSize: style.FontSize * style.LegendFontSizeDelta, bold: false, fontColor: style.FontColor);
+            var legend = Chart.Legend();
+            legend.IsVisible = true;
+            legend.Location = Alignment.LowerRight;
+            legend.FillColor = Color.WhiteSmoke;
+            legend.OutlineColor = Color.Transparent;
+            legend.FontSize = style.FontSize * style.LegendFontSizeDelta;
+            legend.FontColor = style.FontColor;
+            legend.FontBold = false;
 
-            Chart.Grid(enable: true, lineStyle: LineStyle.Dash, color: style.GridLineColor, enableVertical: true, enableHorizontal: false);
+
+            Chart.Grid(enable: true, lineStyle: LineStyle.Dash, color: style.GridLineColor);
+            Chart.XAxis.Grid(true);
+            Chart.YAxis.Grid(false);
+
+            
         }
 
         ///// <summary>

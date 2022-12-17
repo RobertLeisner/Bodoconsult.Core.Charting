@@ -1,6 +1,10 @@
-﻿using System;
+﻿// Copyright (c) Bodoconsult EDV-Dienstleistungen GmbH. All rights reserved.
+
+
+using System;
 using System.Globalization;
 using System.Linq;
+using System.Runtime.Versioning;
 using Bodoconsult.Core.Charting.Base.Models;
 using ScottPlot;
 
@@ -10,6 +14,7 @@ namespace Bodoconsult.Core.Charting
     /// Creates a column chart
     /// </summary>
     /// <typeparam name="T">input data type</typeparam>
+    [SupportedOSPlatform("windows")]
     public class ColumnChart<T> : BaseChart<T> where T: ChartItemData
     {
         /// <summary>
@@ -62,20 +67,22 @@ namespace Bodoconsult.Core.Charting
 
             
 
-            if (values1.Any(x => Math.Abs(x) > 0.0000001)) Chart.PlotBar(indexers, values1);
-            if (values2.Any(x => Math.Abs(x) > 0.0000001)) Chart.PlotBar(indexers, values2);
-            if (values3.Any(x => Math.Abs(x) > 0.0000001)) Chart.PlotBar(indexers, values3);
-            if (values4.Any(x => Math.Abs(x) > 0.0000001)) Chart.PlotBar(indexers, values4);
-            if (values5.Any(x => Math.Abs(x) > 0.0000001)) Chart.PlotBar(indexers, values5);
-            if (values6.Any(x => Math.Abs(x) > 0.0000001)) Chart.PlotBar(indexers, values6);
-            if (values7.Any(x => Math.Abs(x) > 0.0000001)) Chart.PlotBar(indexers, values7);
-            if (values8.Any(x => Math.Abs(x) > 0.0000001)) Chart.PlotBar(indexers, values8);
-            if (values9.Any(x => Math.Abs(x) > 0.0000001)) Chart.PlotBar(indexers, values9);
-            if (values10.Any(x => Math.Abs(x) > 0.0000001)) Chart.PlotBar(indexers, values10);
+            if (values1.Any(x => Math.Abs(x) > 0.0000001)) PlotBar(indexers, values1);
+            if (values2.Any(x => Math.Abs(x) > 0.0000001)) PlotBar(indexers, values2);
+            if (values3.Any(x => Math.Abs(x) > 0.0000001)) PlotBar(indexers, values3);
+            if (values4.Any(x => Math.Abs(x) > 0.0000001)) PlotBar(indexers, values4);
+            if (values5.Any(x => Math.Abs(x) > 0.0000001)) PlotBar(indexers, values5);
+            if (values6.Any(x => Math.Abs(x) > 0.0000001)) PlotBar(indexers, values6);
+            if (values7.Any(x => Math.Abs(x) > 0.0000001)) PlotBar(indexers, values7);
+            if (values8.Any(x => Math.Abs(x) > 0.0000001)) PlotBar(indexers, values8);
+            if (values9.Any(x => Math.Abs(x) > 0.0000001)) PlotBar(indexers, values9);
+            if (values10.Any(x => Math.Abs(x) > 0.0000001)) PlotBar(indexers, values10);
 
 
             // customize the plot to make it look nicer
-            Chart.Grid(enableVertical: false, lineStyle: LineStyle.Dot);
+            Chart.Grid(enable: true, lineStyle: LineStyle.Dot);
+            Chart.XAxis.Grid(false);
+            Chart.YAxis.Grid(true);
 
             Chart.XTicks(indexers, labels);
 
@@ -84,22 +91,28 @@ namespace Bodoconsult.Core.Charting
                 ? ChartData.PropertiesToUseForChart[0]
                 : ChartData.XLabelText;
 
-            Chart.XLabel(label, fontName: style.FontName, fontSize: style.FontSize * style.AxisTitleFontSizeDelta, bold: true);
+            Chart.XAxis.Label(label, fontName: style.FontName, size: style.FontSize * style.AxisTitleFontSizeDelta, bold: true);
 
             label = string.IsNullOrEmpty(ChartData.YLabelText)
                 ? ChartData.PropertiesToUseForChart[1]
                 : ChartData.YLabelText;
 
-            Chart.YLabel(label, fontName: style.FontName, fontSize: style.FontSize * style.AxisTitleFontSizeDelta, bold: true);
+            Chart.YAxis.Label(label, fontName: style.FontName, size: style.FontSize * style.AxisTitleFontSizeDelta, bold: true);
 
             var formatY = string.IsNullOrEmpty(style.YAxisNumberformat) ? "0" : style.YAxisNumberformat;
-            Chart.Ticks(dateTimeY: false, numericFormatStringY: formatY);
+            
+            Chart.YAxis.TickLabelFormat(formatY, false);
 
             base.CreateChart();
 
 
             
             
+        }
+
+        private void PlotBar(double[] xValues, double[] yValues)
+        {
+            Chart.AddBar(yValues, xValues);
         }
 
         /// <summary>
@@ -111,7 +124,9 @@ namespace Bodoconsult.Core.Charting
 
             var style = ChartData.ChartStyle;
 
-            Chart.Grid(enable: true, lineStyle: LineStyle.Dash, color: style.GridLineColor, enableHorizontal: true, enableVertical: false);
+            Chart.Grid(enable: true, lineStyle: LineStyle.Dash, color: style.GridLineColor);
+            Chart.XAxis.Grid(false);
+            Chart.YAxis.Grid(true);
 
 
         }

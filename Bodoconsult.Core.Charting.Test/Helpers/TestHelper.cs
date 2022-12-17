@@ -87,5 +87,10 @@ namespace Bodoconsult.Core.Charting.Test.Helpers
 
             return JsonXmlHelper.GetDataTableFromXml(path);
         }
+
+        /// <summary>
+        /// The path where the test results are saved in
+        /// </summary>
+        public static string TestResultPath => @"c:\temp\";
     }
 }

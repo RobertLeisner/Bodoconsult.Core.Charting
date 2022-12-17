@@ -1,7 +1,10 @@
-﻿using System;
+﻿// Copyright (c) Bodoconsult EDV-Dienstleistungen GmbH. All rights reserved.
+
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Runtime.Versioning;
 using Bodoconsult.Core.Charting.Base.Models;
 using ScottPlot;
 
@@ -11,6 +14,7 @@ namespace Bodoconsult.Core.Charting
     /// Create a histogram
     /// </summary>
     /// <typeparam name="T"></typeparam>
+    [SupportedOSPlatform("windows")]
     public class LineChartHistogram<T> : BaseChart<T>  where T: ChartItemData
     {
 
@@ -60,7 +64,7 @@ namespace Bodoconsult.Core.Charting
 
             var barWidth = 1 / ((double) xData.Length*10) ;
 
-            if (values1.Any(x => Math.Abs(x) > 0.0000001)) Chart.PlotBar(xData, values1.ToArray(), barWidth: barWidth);
+            if (values1.Any(x => Math.Abs(x) > 0.0000001)) PlotBar(xData, values1.ToArray(), barWidth: barWidth);
             //if (values2.Any(x => Math.Abs(x) > 0.0000001)) Chart.PlotScatter(xData, values2.ToArray(), markerShape: MarkerShape.none, lineWidth: 2D, label: GetLabelForSeries(1));
             //if (values3.Any(x => Math.Abs(x) > 0.0000001)) Chart.PlotScatter(xData, values3.ToArray(), markerShape: MarkerShape.none, lineWidth: 2D, label: GetLabelForSeries(2));
             //if (values4.Any(x => Math.Abs(x) > 0.0000001)) Chart.PlotScatter(xData, values4.ToArray(), markerShape: MarkerShape.none, lineWidth: 2D, label: GetLabelForSeries(3));
@@ -78,13 +82,17 @@ namespace Bodoconsult.Core.Charting
             {
                 formatX = string.IsNullOrEmpty(style.XAxisNumberformat) ? CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern : style.XAxisNumberformat;
                 formatY = string.IsNullOrEmpty(style.YAxisNumberformat) ? CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern : style.YAxisNumberformat;
-                Chart.Ticks(dateTimeX: true, dateTimeFormatStringX: formatX, numericFormatStringY: formatY);
+                //Chart.Ticks(dateTimeX: true, dateTimeFormatStringX: formatX, numericFormatStringY: formatY);
+                Chart.XAxis.TickLabelFormat(formatX, true);
+                Chart.YAxis.TickLabelFormat(formatY, false);
             }
             else
             {
                 formatX = string.IsNullOrEmpty(style.XAxisNumberformat) ? "0" : style.XAxisNumberformat;
                 formatY = string.IsNullOrEmpty(style.YAxisNumberformat) ? "0" : style.YAxisNumberformat;
-                Chart.Ticks(dateTimeX: false, numericFormatStringX: formatX, numericFormatStringY: formatY);
+                //Chart.Ticks(dateTimeX: false, numericFormatStringX: formatX, numericFormatStringY: formatY);
+                Chart.XAxis.TickLabelFormat(formatX, false);
+                Chart.YAxis.TickLabelFormat(formatY, false);
             }
 
             //Chart.Legend(enableLegend: true, location: legendLocation.upperCenter);
@@ -93,6 +101,12 @@ namespace Bodoconsult.Core.Charting
             base.CreateChart();
 
 
+        }
+
+        private void PlotBar(double[] xValues, double[] yValues, double barWidth)
+        {
+            var bar = Chart.AddBar(yValues, xValues);
+            bar.BarWidth = barWidth;
         }
 
         /// <summary>
@@ -105,7 +119,9 @@ namespace Bodoconsult.Core.Charting
 
             var style = ChartData.ChartStyle;
 
-            Chart.Grid(enable: true, lineStyle: LineStyle.Dash, color: style.GridLineColor, enableVertical: false, enableHorizontal: true);
+            Chart.Grid(enable: true, lineStyle: LineStyle.Dash, color: style.GridLineColor);
+            Chart.XAxis.Grid(false);
+            Chart.YAxis.Grid(true);
         }
 
 

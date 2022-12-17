@@ -1,4 +1,7 @@
-﻿using System.IO;
+﻿// Copyright (c) Bodoconsult EDV-Dienstleistungen GmbH. All rights reserved.
+
+using System.IO;
+using System.Runtime.Versioning;
 using Bodoconsult.Core.Charting.Base.Models;
 using Bodoconsult.Core.Charting.Test.Helpers;
 using Bodoconsult.Core.Charting.Util;
@@ -6,6 +9,7 @@ using NUnit.Framework;
 
 namespace Bodoconsult.Core.Charting.Test
 {
+    [SupportedOSPlatform("windows")]
     public abstract class BaseTestChartHandler
     {
 
@@ -19,8 +23,7 @@ namespace Bodoconsult.Core.Charting.Test
         {
 
             // const string sql = "EXEC Vermoegen_Db.[dbo].SetFinDBUser 'bodoprivate' exec Vermoegen_Db.[dbo].[GetAnteilswerte] 120, 1";
-
-            const string fileName = @"d:\temp\ScottPlott_Db_StackedBarChart.png";
+            var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_Db_StackedBarChart.png");
 
             if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -57,7 +60,7 @@ namespace Bodoconsult.Core.Charting.Test
 
             //const string sql = "EXEC Vermoegen_Db.[dbo].SetFinDBUser 'bodoprivate' exec Vermoegen_Db.[dbo].[GetAnteilswerte] 120, 1";
 
-            const string fileName = @"d:\temp\ScottPlott_Db_StackedColumnChart.png";
+            var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_Db_StackedColumnChart.png");
 
             if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -94,7 +97,7 @@ namespace Bodoconsult.Core.Charting.Test
 
             // const string sql = "EXEC Vermoegen_Db.[dbo].SetFinDBUser 'bodoprivate' exec Vermoegen_Db.[dbo].[GetAnteilswerte] 120, 1";
 
-            const string fileName = @"d:\temp\ScottPlott_Db_StackedColumn100Chart.png";
+            var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_Db_StackedColumn100Chart.png");
 
             if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -128,7 +131,7 @@ namespace Bodoconsult.Core.Charting.Test
         public void TestPieChart()
         {
 
-            const string fileName = @"d:\temp\ScottPlott_PieChart.png";
+            var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_PieChart.png");
 
             if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -162,7 +165,7 @@ namespace Bodoconsult.Core.Charting.Test
         public void TestPointChart()
         {
 
-            const string fileName = @"d:\temp\ScottPlott_PointChart.png";
+            var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_PointChart.png");
 
             if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -197,7 +200,7 @@ namespace Bodoconsult.Core.Charting.Test
         public void TestPointChartPercent()
         {
 
-            const string fileName = @"d:\temp\ScottPlott_PointChart_Percent.png";
+            var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_PointChart_Percent.png");
 
             if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -237,7 +240,7 @@ namespace Bodoconsult.Core.Charting.Test
         public void TestBarChart()
         {
 
-            const string fileName = @"d:\temp\ScottPlott_BarChart.png";
+            var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_BarChart.png");
 
             if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -274,7 +277,7 @@ namespace Bodoconsult.Core.Charting.Test
         public void TestColumnChart()
         {
 
-            const string fileName = @"d:\temp\ScottPlott_ColumnChart.png";
+            var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_ColumnChart.png");
 
             if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -290,7 +293,7 @@ namespace Bodoconsult.Core.Charting.Test
                 FileName = fileName,
                 ChartType = ChartType.ColumnChart,
 
-                
+
             };
 
             TestHelper.LoadDefaultChartStyle(data, HighResolution);
@@ -312,7 +315,7 @@ namespace Bodoconsult.Core.Charting.Test
         public void TestLineChart()
         {
 
-            const string fileName = @"d:\temp\ScottPlott_LineChart.png";
+            var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_LineChart.png");
 
             if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -358,7 +361,7 @@ namespace Bodoconsult.Core.Charting.Test
         public void TestLineChart_SmallValues()
         {
 
-            const string fileName = @"d:\temp\ScottPlott_LineChart_SmallValues.png";
+            var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_LineChart_SmallValues.png");
 
             if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -403,7 +406,7 @@ namespace Bodoconsult.Core.Charting.Test
         public void TestLineChart_Histogram()
         {
 
-            const string fileName = @"d:\temp\ScottPlott_LineChart_Histogram.png";
+            var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_LineChart_Histogram.png");
 
             if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -445,7 +448,7 @@ namespace Bodoconsult.Core.Charting.Test
         public void TestLineChart_Percentages()
         {
 
-            const string fileName = @"d:\temp\ScottPlott_LineChart_Percentages.png";
+            var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_LineChart_Percentages.png");
 
             if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -489,7 +492,7 @@ namespace Bodoconsult.Core.Charting.Test
         //public void TestLineChart_XAxisDouble()
         //{
 
-        //    const string fileName = @"d:\temp\ScottPlott_LineChart.png";
+        //    var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_LineChart.png";
 
         //    if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -533,7 +536,7 @@ namespace Bodoconsult.Core.Charting.Test
         //public void TestStackedColumnChart()
         //{
 
-        //    const string fileName = @"d:\temp\ScottPlott_StackedColumnChart.png";
+        //    var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_StackedColumnChart.png";
 
         //    if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -577,7 +580,7 @@ namespace Bodoconsult.Core.Charting.Test
         //public void TestStackedBarChart()
         //{
 
-        //    const string fileName = @"d:\temp\ScottPlott_StackedBarChart.png";
+        //    var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_StackedBarChart.png";
 
         //    if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -622,7 +625,7 @@ namespace Bodoconsult.Core.Charting.Test
         //public void TestStackedColumn100Chart()
         //{
 
-        //    const string fileName = @"d:\temp\ScottPlott_StackedColumn100Chart.png";
+        //    var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_StackedColumn100Chart.png";
 
         //    if (File.Exists(fileName)) File.Delete(fileName);
 
@@ -667,7 +670,7 @@ namespace Bodoconsult.Core.Charting.Test
         //public void TestStockChart()
         //{
 
-        //    const string fileName = @"d:\temp\ScottPlott_StockChart.png";
+        //    var fileName = Path.Combine(TestHelper.TestResultPath, "ScottPlott_StockChart.png";
 
         //    if (File.Exists(fileName)) File.Delete(fileName);
 

@@ -1,5 +1,8 @@
-﻿using System;
+﻿// Copyright (c) Bodoconsult EDV-Dienstleistungen GmbH. All rights reserved.
+
+using System;
 using System.Drawing;
+using System.Runtime.Versioning;
 using Bodoconsult.Core.Charting.Base.Models;
 using ScottPlot;
 
@@ -9,6 +12,7 @@ namespace Bodoconsult.Core.Charting
     /// Creates a pie chart
     /// </summary>
     /// <typeparam name="T">input data type</typeparam>
+    [SupportedOSPlatform("windows")]
     public class PieChart<T> : BaseChart<T> where T : PieChartItemData
     {
         /// <summary>
@@ -32,13 +36,25 @@ namespace Bodoconsult.Core.Charting
                 labels[index] = data.XValue;
             }
 
-            //var pie =
-            Chart.PlotPie(values, labels, showPercentages: true, showLabels: false);
-
+            var pie = Chart.AddPie(values);
+            pie.SliceLabels = labels;
+            pie.ShowPercentages = true;
+            pie.ShowLabels = false;
 
             //var x = pie.donutSize;
-            Chart.Legend(enableLegend: true, style.FontName, style.FontSize, fontColor: style.FontColor, 
-                frameColor: Color.Transparent, location: legendLocation.lowerRight, backColor: Color.Transparent);
+            //Chart.Legend(enableLegend: true, style.FontName, style.FontSize, fontColor: style.FontColor, 
+            //    frameColor: Color.Transparent, location: legendLocation.lowerRight, backColor: Color.Transparent);
+
+            var legend = Chart.Legend();
+            legend.IsVisible = true;
+            legend.Location = Alignment.LowerRight;
+            legend.FillColor = Color.Transparent;
+            legend.OutlineColor = Color.Transparent;
+            legend.FontSize = style.FontSize;
+            legend.FontColor = style.FontColor;
+            legend.FontBold = false;
+            legend.FontName = style.FontName;
+
 
             //Chart.Grid(false);
             //Chart.Frame(false);
@@ -56,10 +72,9 @@ namespace Bodoconsult.Core.Charting
             base.Formatting();
 
             Chart.Grid(false);
-            Chart.Frame(false);
-            Chart.Ticks(false, false);
-
-
+            Chart.Frameless();
+            Chart.XAxis.Ticks(false);
+            Chart.YAxis.Ticks(false);
         }
     }
 }

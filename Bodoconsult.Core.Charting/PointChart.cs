@@ -1,9 +1,12 @@
-﻿using System;
+﻿// Copyright (c) Bodoconsult EDV-Dienstleistungen GmbH. All rights reserved.
+
+
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Versioning;
 using Bodoconsult.Core.Charting.Base.Models;
-using Bodoconsult.Core.Charting.Util;
 using ScottPlot;
 
 namespace Bodoconsult.Core.Charting
@@ -12,6 +15,7 @@ namespace Bodoconsult.Core.Charting
     /// Creates a point chart
     /// </summary>
     /// <typeparam name="T">data input type</typeparam>
+    [SupportedOSPlatform("windows")]
     public class PointChart<T> : BaseChart<T> where T : IChartItemData
     {
         /// <summary>
@@ -60,21 +64,31 @@ namespace Bodoconsult.Core.Charting
             }
             else
             {
-                maxY = (Math.Ceiling(maxY / 10) ) * 10;
+                maxY = (Math.Ceiling(maxY / 10)) * 10;
             }
 
+            var point = Chart.AddPoint(deltaX / 100, deltaY / 100);
+            point.Color = Color.Transparent;
+            point.MarkerSize = 0;
 
-            Chart.PlotPoint(deltaX / 100, deltaY / 100, color: Color.Transparent, markerSize: 0);
-            Chart.PlotPoint(maxX, maxY, color: Color.Transparent, markerSize: 0);
+
+            point = Chart.AddPoint(maxX, maxY);
+            point.Color = Color.Transparent;
+            point.MarkerSize = 0;
 
             for (var index = 0; index < data.Count; index++)
             {
                 var item = data[index];
 
-                Chart.PlotPoint(item.XValue, item.YValue, label: item.Label, color: item.Color, markerSize: markerSize);
+                point = Chart.AddPoint(item.XValue, item.YValue);
+                point.Color = item.Color;
+                point.MarkerSize = markerSize;
 
-                Chart.PlotText(item.Label, item.XValue + deltaX, item.YValue, color: item.Color, fontName: style.FontName,
-                    fontSize: style.FontSize);
+                var text = Chart.AddText(item.Label, item.XValue + deltaX, item.YValue);
+
+                text.Color = item.Color;
+                text.FontName = style.FontName;
+                text.FontSize = style.FontSize;
 
             }
 
@@ -83,17 +97,16 @@ namespace Bodoconsult.Core.Charting
                 ? ChartData.PropertiesToUseForChart[0]
                 : ChartData.XLabelText;
 
-            Chart.XLabel(label, fontName: style.FontName, fontSize: style.FontSize * style.AxisTitleFontSizeDelta, bold: true);
+            Chart.XAxis.Label(label, fontName: style.FontName, size: style.FontSize * style.AxisTitleFontSizeDelta, bold: true);
 
             label = string.IsNullOrEmpty(ChartData.YLabelText)
                 ? ChartData.PropertiesToUseForChart[1]
                 : ChartData.YLabelText;
 
-            Chart.YLabel(label, fontName: style.FontName, fontSize: style.FontSize * style.AxisTitleFontSizeDelta, bold: true);
+            Chart.YAxis.Label(label, fontName: style.FontName, size: style.FontSize * style.AxisTitleFontSizeDelta, bold: true);
 
-
-            Chart.Ticks(dateTimeX: false, numericFormatStringX: formatX, numericFormatStringY: formatY);
-
+            Chart.XAxis.TickLabelFormat(formatX, false);
+            Chart.YAxis.TickLabelFormat(formatY, false);
 
             base.CreateChart();
         }

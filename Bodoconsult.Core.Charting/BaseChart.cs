@@ -1,7 +1,10 @@
-﻿using System.Collections.Generic;
+﻿// Copyright (c) Bodoconsult EDV-Dienstleistungen GmbH. All rights reserved.
+
+using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Runtime.Versioning;
 using Bodoconsult.Core.Charting.Base.Models;
 using ScottPlot;
 
@@ -13,6 +16,7 @@ namespace Bodoconsult.Core.Charting
     /// Contains basic functionality for all types of charts in the current library
     /// </summary>
     /// <typeparam name="T"></typeparam>
+    [SupportedOSPlatform("windows")]
     public class BaseChart<T> : IChart where T : IChartItemData
     {
         /// <summary>
@@ -40,8 +44,7 @@ namespace Bodoconsult.Core.Charting
                 Chart = new Plot(ChartData.ChartStyle.Width-d, ChartData.ChartStyle.Height-d);
             }
 
-            
-            Chart.AntiAlias(true, true, true);
+            //Chart.AntiAlias(true, true, true);
             Chart.Grid(enable: false);
         }
 
@@ -185,7 +188,10 @@ namespace Bodoconsult.Core.Charting
         public virtual void AddCopyright()
         {
             // Copyright
-            if (string.IsNullOrEmpty(ChartData.Copyright)) return;
+            if (string.IsNullOrEmpty(ChartData.Copyright))
+            {
+                return;
+            }
 
             //var copyright = new Title(ChartData.Copyright, Docking.Top,
             //    new Font(ChartData.ChartStyle.FontName, ChartData.ChartStyle.FontSize * ChartData.ChartStyle.CopyrightFontSizeDelta, FontStyle.Regular),
@@ -273,10 +279,10 @@ namespace Bodoconsult.Core.Charting
         public virtual void AddTitle()
         {
 
-            Chart.Title(ChartData.Title,true, 
-                ChartData.ChartStyle.TitleFontName, 
-                ChartData.ChartStyle.FontSize * ChartData.ChartStyle.TitleFontSizeDelta, 
-                ChartData.ChartStyle.TitleColor);
+            Chart.Title(ChartData.Title,bold: true, 
+                fontName: ChartData.ChartStyle.TitleFontName, 
+                size: ChartData.ChartStyle.FontSize * ChartData.ChartStyle.TitleFontSizeDelta, 
+                color: ChartData.ChartStyle.TitleColor);
 
             //var t = new Title(ChartData.Title, Docking.Top)
             //{
@@ -303,14 +309,16 @@ namespace Bodoconsult.Core.Charting
         /// </summary>
         public virtual void Formatting()
         {
+            Chart.XAxis.Line(true);
+            Chart.YAxis.Line(true);
+            Chart.XAxis2.Line(false);
+            Chart.YAxis2.Line(false);
 
-            Chart.Frame(left: true, bottom: true, top: false, right: false, frameColor: ChartData.ChartStyle.AxisLineColor);
 
-            Chart.Style(dataBg: ChartData.ChartStyle.BackgroundColor, 
-                figBg: Color.Transparent, 
-                grid: ChartData.ChartStyle.AxisLineColor, 
-                label: ChartData.ChartStyle.AxisLineColor, 
-                title: ChartData.ChartStyle.TitleColor);
+            Chart.Style(dataBackground: ChartData.ChartStyle.BackgroundColor, 
+                figureBackground: Color.Transparent, 
+                grid: ChartData.ChartStyle.AxisLineColor,
+                titleLabel: ChartData.ChartStyle.TitleColor);
 
 
             //Chart.Width = new Unit(ChartData.ChartStyle.Width, UnitType.Pixel);

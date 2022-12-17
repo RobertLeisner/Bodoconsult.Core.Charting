@@ -1,7 +1,7 @@
-using System.Collections.Generic;
-using System.Drawing;
+// Copyright (c) Bodoconsult EDV-Dienstleistungen GmbH. All rights reserved.
+
 using Bodoconsult.Core.Charting.Base.Models;
-using Bodoconsult.Core.Charting.Util;
+using System.Runtime.Versioning;
 
 namespace Bodoconsult.Core.Charting
 {
@@ -9,6 +9,7 @@ namespace Bodoconsult.Core.Charting
     /// Creates a stock chart
     /// </summary>
     /// <typeparam name="T"></typeparam>
+    [SupportedOSPlatform("windows")]
     public class StockChart<T> : BaseChart<T> where T: IChartItemData
     {
 

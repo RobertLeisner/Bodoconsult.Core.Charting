@@ -1,29 +1,33 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Deterministic>False</Deterministic>
     <RepositoryUrl>https://github.com/RobertLeisner/Bodoconsult.Core.Charting</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageId>Bodoconsult.Core.Charting</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Robert Leisner</Authors>
     <Company>Bodoconsult EDV-Dienstleistungen GmbH</Company>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Chart database datatable ScottPlot piechart linechart risk return barchart pointchart</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Charting library based on ScottPlot library for easy charting of database data</Description>
-    <PackageReleaseNotes>Bugfixes</PackageReleaseNotes>
+    <PackageReleaseNotes>Migration to .NET 6 and updated dependencies</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/RobertLeisner/Bodoconsult.Core.Charting</PackageProjectUrl>
     <NeutralLanguage>en</NeutralLanguage>
+      <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Bodoconsult.Core.Charting.Base" Version="1.0.0" />
-    <PackageReference Include="Bodoconsult.Core.Typography" Version="1.0.0" />
-    <PackageReference Include="ScottPlot" Version="4.0.47" />
-    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+    <PackageReference Include="Bodoconsult.Core.Charting.Base" Version="1.0.2" />
+    <PackageReference Include="Bodoconsult.Core.Typography" Version="1.0.1" />
+    <PackageReference Include="ScottPlot" Version="4.1.59" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
   </ItemGroup>
-
+	<ItemGroup>
+		<None Include="..\LICENSE.md" Link="LICENSE.md" />
+		<None Include="..\README.md" Link="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
 </Project>
